@@ -1,2 +1,0 @@
-/usr/bin/ar qc libbasictests.a  CMakeFiles/basictests.dir/basic_check.cpp.o CMakeFiles/basictests.dir/vehicle_check.cpp.o
-/usr/bin/ranlib libbasictests.a
