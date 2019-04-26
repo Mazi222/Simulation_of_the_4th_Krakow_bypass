@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp
 Bypass.hpp
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
 
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
 
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp
 Car.hpp
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Car.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.hpp
 
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Car.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.hpp
 Vehicle.hpp
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
 
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp
 Simulation.hpp
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.hpp
 
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.hpp
 array
 -
 memory
@@ -32,11 +32,11 @@ memory
 vector
 -
 Bypass.hpp
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
 Vehicle.hpp
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
 
-/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
 string
 -
 

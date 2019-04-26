@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass
+CMAKE_SOURCE_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/bypass_run.dir
@@ -69,7 +69,7 @@ CMakeFiles/bypass_run.dir/all: bypass_tests/lib/googletest-master/googlemock/gte
 CMakeFiles/bypass_run.dir/all: bypass_tests/basic_tests/CMakeFiles/basictests.dir/all
 	$(MAKE) -f CMakeFiles/bypass_run.dir/build.make CMakeFiles/bypass_run.dir/depend
 	$(MAKE) -f CMakeFiles/bypass_run.dir/build.make CMakeFiles/bypass_run.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target bypass_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target bypass_run"
 .PHONY : CMakeFiles/bypass_run.dir/all
 
 # Include target in all.
@@ -79,9 +79,9 @@ all: CMakeFiles/bypass_run.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/bypass_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 13
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/bypass_run.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/bypass_run.dir/rule
 
 # Convenience name for target.
@@ -124,7 +124,7 @@ bypass/preinstall:
 bypass/CMakeFiles/bypass.dir/all:
 	$(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/depend
 	$(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7 "Built target bypass"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7 "Built target bypass"
 .PHONY : bypass/CMakeFiles/bypass.dir/all
 
 # Include target in all.
@@ -134,9 +134,9 @@ all: bypass/CMakeFiles/bypass.dir/all
 
 # Build rule for subdir invocation for target.
 bypass/CMakeFiles/bypass.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 bypass/CMakeFiles/bypass.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
 .PHONY : bypass/CMakeFiles/bypass.dir/rule
 
 # Convenience name for target.
@@ -223,7 +223,7 @@ bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: byp
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all: bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target gmock_main"
 .PHONY : bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Include target in all.
@@ -233,9 +233,9 @@ all: bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
 .PHONY : bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -260,7 +260,7 @@ clean: bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/c
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all: bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target gmock"
 .PHONY : bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 
 # Include target in all.
@@ -270,9 +270,9 @@ all: bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
 .PHONY : bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -317,7 +317,7 @@ bypass_tests/lib/googletest-master/googlemock/gtest/preinstall:
 bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all: bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target gtest_main"
 .PHONY : bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Include target in all.
@@ -327,9 +327,9 @@ all: bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.d
 
 # Build rule for subdir invocation for target.
 bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
 .PHONY : bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -354,7 +354,7 @@ clean: bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main
 bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=14,15 "Built target gtest"
 .PHONY : bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Include target in all.
@@ -364,9 +364,9 @@ all: bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/al
 
 # Build rule for subdir invocation for target.
 bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
 .PHONY : bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -411,7 +411,7 @@ bypass_tests/basic_tests/preinstall:
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/all:
 	$(MAKE) -f bypass_tests/basic_tests/CMakeFiles/basictests.dir/build.make bypass_tests/basic_tests/CMakeFiles/basictests.dir/depend
 	$(MAKE) -f bypass_tests/basic_tests/CMakeFiles/basictests.dir/build.make bypass_tests/basic_tests/CMakeFiles/basictests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target basictests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target basictests"
 .PHONY : bypass_tests/basic_tests/CMakeFiles/basictests.dir/all
 
 # Include target in all.
@@ -421,9 +421,9 @@ all: bypass_tests/basic_tests/CMakeFiles/basictests.dir/all
 
 # Build rule for subdir invocation for target.
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 bypass_tests/basic_tests/CMakeFiles/basictests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
 .PHONY : bypass_tests/basic_tests/CMakeFiles/basictests.dir/rule
 
 # Convenience name for target.
@@ -450,7 +450,7 @@ bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/all: bypass_tests/
 bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/all: bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/build.make bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/depend
 	$(MAKE) -f bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/build.make bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target runBasicCalendarTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target runBasicCalendarTests"
 .PHONY : bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/all
 
 # Include target in all.
@@ -460,9 +460,9 @@ all: bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/all
 
 # Build rule for subdir invocation for target.
 bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 10
 	$(MAKE) -f CMakeFiles/Makefile2 bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
 .PHONY : bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/rule
 
 # Convenience name for target.

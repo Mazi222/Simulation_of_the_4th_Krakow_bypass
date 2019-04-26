@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=c++11 -Wall -Wshadow -Werror -DGTEST_HAS_PTHREAD=1 -fexcep
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass -I/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/include -I/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock -isystem /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/include -isystem /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest 
+CXX_INCLUDES = -I/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass -I/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/include -I/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock -isystem /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/include -isystem /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest 
 

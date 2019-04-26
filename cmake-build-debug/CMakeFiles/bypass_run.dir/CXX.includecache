@@ -6,6 +6,24 @@
 
 #IncludeRegexTransform: 
 
+../bypass/Bypass.hpp
+
+../bypass/Simulation.hpp
+array
+-
+memory
+-
+vector
+-
+Bypass.hpp
+../bypass/Bypass.hpp
+Vehicle.hpp
+../bypass/Vehicle.hpp
+
+../bypass/Vehicle.hpp
+string
+-
+
 ../bypass_tests/lib/googletest-master/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
 ../bypass_tests/lib/googletest-master/googletest/include/gtest/gtest/internal/gtest-death-test-internal.h
@@ -302,9 +320,15 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/src/gtest_main.cc
-cstdio
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.hpp
+
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/main.cpp
+iostream
 -
 gtest/gtest.h
-/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/src/gtest/gtest.h
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/gtest/gtest.h
+bypass_tests/basic_tests/basic_check.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.hpp
+Simulation.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/Simulation.hpp
 

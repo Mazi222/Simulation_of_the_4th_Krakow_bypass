@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass
+CMAKE_SOURCE_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
+CMAKE_BINARY_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,37 +59,37 @@ CMAKE_BINARY_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -105,7 +105,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -116,7 +116,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/progress.marks
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/progress.marks
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/clean
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/preinstall
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/preinstall
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 bypass/CMakeFiles/bypass.dir/rule:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/CMakeFiles/bypass.dir/rule
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 bypass/CMakeFiles/bypass.dir/rule
 .PHONY : bypass/CMakeFiles/bypass.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ bypass: bypass/CMakeFiles/bypass.dir/rule
 
 # fast build rule for target.
 bypass/fast:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/build
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/build
 .PHONY : bypass/fast
 
 Bypass.o: Bypass.cpp.o
@@ -177,7 +177,7 @@ Bypass.o: Bypass.cpp.o
 
 # target to build an object file
 Bypass.cpp.o:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Bypass.cpp.o
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Bypass.cpp.o
 .PHONY : Bypass.cpp.o
 
 Bypass.i: Bypass.cpp.i
@@ -186,7 +186,7 @@ Bypass.i: Bypass.cpp.i
 
 # target to preprocess a source file
 Bypass.cpp.i:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Bypass.cpp.i
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Bypass.cpp.i
 .PHONY : Bypass.cpp.i
 
 Bypass.s: Bypass.cpp.s
@@ -195,7 +195,7 @@ Bypass.s: Bypass.cpp.s
 
 # target to generate assembly for a file
 Bypass.cpp.s:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Bypass.cpp.s
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Bypass.cpp.s
 .PHONY : Bypass.cpp.s
 
 Car.o: Car.cpp.o
@@ -204,7 +204,7 @@ Car.o: Car.cpp.o
 
 # target to build an object file
 Car.cpp.o:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Car.cpp.o
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Car.cpp.o
 .PHONY : Car.cpp.o
 
 Car.i: Car.cpp.i
@@ -213,7 +213,7 @@ Car.i: Car.cpp.i
 
 # target to preprocess a source file
 Car.cpp.i:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Car.cpp.i
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Car.cpp.i
 .PHONY : Car.cpp.i
 
 Car.s: Car.cpp.s
@@ -222,7 +222,7 @@ Car.s: Car.cpp.s
 
 # target to generate assembly for a file
 Car.cpp.s:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Car.cpp.s
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Car.cpp.s
 .PHONY : Car.cpp.s
 
 Simulation.o: Simulation.cpp.o
@@ -231,7 +231,7 @@ Simulation.o: Simulation.cpp.o
 
 # target to build an object file
 Simulation.cpp.o:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Simulation.cpp.o
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Simulation.cpp.o
 .PHONY : Simulation.cpp.o
 
 Simulation.i: Simulation.cpp.i
@@ -240,7 +240,7 @@ Simulation.i: Simulation.cpp.i
 
 # target to preprocess a source file
 Simulation.cpp.i:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Simulation.cpp.i
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Simulation.cpp.i
 .PHONY : Simulation.cpp.i
 
 Simulation.s: Simulation.cpp.s
@@ -249,7 +249,7 @@ Simulation.s: Simulation.cpp.s
 
 # target to generate assembly for a file
 Simulation.cpp.s:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Simulation.cpp.s
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Simulation.cpp.s
 .PHONY : Simulation.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

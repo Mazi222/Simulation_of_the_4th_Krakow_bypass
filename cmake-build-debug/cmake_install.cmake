@@ -1,4 +1,4 @@
-# Install script for directory: /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass
+# Install script for directory: /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/cmake_install.cmake")
-  include("/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/cmake_install.cmake")
+  include("/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/cmake_install.cmake")
+  include("/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
