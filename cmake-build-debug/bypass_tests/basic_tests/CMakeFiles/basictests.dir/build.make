@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass
+CMAKE_SOURCE_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bypass_tests/basic_tests/CMakeFiles/basictests.dir/depend.make
@@ -59,16 +59,16 @@ include bypass_tests/basic_tests/CMakeFiles/basictests.dir/flags.make
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.o: bypass_tests/basic_tests/CMakeFiles/basictests.dir/flags.make
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.o: ../bypass_tests/basic_tests/basic_check.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.o"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/basictests.dir/basic_check.cpp.o -c /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.o"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/basictests.dir/basic_check.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/basictests.dir/basic_check.cpp.i"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp > CMakeFiles/basictests.dir/basic_check.cpp.i
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp > CMakeFiles/basictests.dir/basic_check.cpp.i
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basictests.dir/basic_check.cpp.s"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp -o CMakeFiles/basictests.dir/basic_check.cpp.s
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp -o CMakeFiles/basictests.dir/basic_check.cpp.s
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.o.requires:
 
@@ -83,16 +83,16 @@ bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.o.provides.bu
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.o: bypass_tests/basic_tests/CMakeFiles/basictests.dir/flags.make
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.o: ../bypass_tests/basic_tests/vehicle_check.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.o"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/basictests.dir/vehicle_check.cpp.o -c /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/vehicle_check.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.o"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/basictests.dir/vehicle_check.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/vehicle_check.cpp
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/basictests.dir/vehicle_check.cpp.i"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/vehicle_check.cpp > CMakeFiles/basictests.dir/vehicle_check.cpp.i
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/vehicle_check.cpp > CMakeFiles/basictests.dir/vehicle_check.cpp.i
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/basictests.dir/vehicle_check.cpp.s"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/vehicle_check.cpp -o CMakeFiles/basictests.dir/vehicle_check.cpp.s
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/vehicle_check.cpp -o CMakeFiles/basictests.dir/vehicle_check.cpp.s
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.o.requires:
 
@@ -117,9 +117,9 @@ bypass_tests/basic_tests/libbasictests.a: bypass_tests/basic_tests/CMakeFiles/ba
 bypass_tests/basic_tests/libbasictests.a: bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.o
 bypass_tests/basic_tests/libbasictests.a: bypass_tests/basic_tests/CMakeFiles/basictests.dir/build.make
 bypass_tests/basic_tests/libbasictests.a: bypass_tests/basic_tests/CMakeFiles/basictests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libbasictests.a"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && $(CMAKE_COMMAND) -P CMakeFiles/basictests.dir/cmake_clean_target.cmake
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/basictests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libbasictests.a"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && $(CMAKE_COMMAND) -P CMakeFiles/basictests.dir/cmake_clean_target.cmake
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/basictests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/build: bypass_tests/basic_tests/libbasictests.a
@@ -132,10 +132,10 @@ bypass_tests/basic_tests/CMakeFiles/basictests.dir/requires: bypass_tests/basic_
 .PHONY : bypass_tests/basic_tests/CMakeFiles/basictests.dir/requires
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/clean:
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && $(CMAKE_COMMAND) -P CMakeFiles/basictests.dir/cmake_clean.cmake
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests && $(CMAKE_COMMAND) -P CMakeFiles/basictests.dir/cmake_clean.cmake
 .PHONY : bypass_tests/basic_tests/CMakeFiles/basictests.dir/clean
 
 bypass_tests/basic_tests/CMakeFiles/basictests.dir/depend:
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bypass_tests/basic_tests/CMakeFiles/basictests.dir/depend
 

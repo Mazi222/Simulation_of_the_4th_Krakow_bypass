@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp" "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.o"
-  "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/vehicle_check.cpp" "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.o"
+  "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/basic_check.cpp.o"
+  "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/vehicle_check.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/vehicle_check.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

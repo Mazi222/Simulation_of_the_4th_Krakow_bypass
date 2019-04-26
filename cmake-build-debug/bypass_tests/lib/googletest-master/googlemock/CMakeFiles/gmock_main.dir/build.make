@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass
+CMAKE_SOURCE_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend.make
@@ -59,16 +59,16 @@ include bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/
 
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o: ../bypass_tests/lib/googletest-master/googlemock/src/gmock_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/src/gmock_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/src/gmock_main.cc
 
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/src/gmock_main.cc > CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/src/gmock_main.cc -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o.requires:
 
@@ -91,9 +91,9 @@ gmock_main_EXTERNAL_OBJECTS =
 lib/libgmock_maind.a: bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 lib/libgmock_maind.a: bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make
 lib/libgmock_maind.a: bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../lib/libgmock_maind.a"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../lib/libgmock_maind.a"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean_target.cmake
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build: lib/libgmock_maind.a
@@ -105,10 +105,10 @@ bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/requires
 .PHONY : bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/requires
 
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean:
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock_main.dir/cmake_clean.cmake
 .PHONY : bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/clean
 
 bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend:
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/depend
 

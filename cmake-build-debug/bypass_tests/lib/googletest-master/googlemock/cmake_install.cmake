@@ -1,4 +1,4 @@
-# Install script for directory: /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock
+# Install script for directory: /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,28 +33,28 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/include/")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/lib/libgmockd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/lib/libgmockd.a")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/lib/libgmock_maind.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/lib/libgmock_maind.a")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/generated/gmock.pc")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/cmake_install.cmake")
+  include("/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

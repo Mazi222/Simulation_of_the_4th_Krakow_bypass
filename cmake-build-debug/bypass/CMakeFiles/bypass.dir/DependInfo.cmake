@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp" "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Bypass.cpp.o"
-  "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp" "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Car.cpp.o"
-  "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp" "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Simulation.cpp.o"
-  "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.cpp" "/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o"
+  "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Bypass.cpp.o"
+  "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Car.cpp.o"
+  "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Simulation.cpp.o"
+  "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

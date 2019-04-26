@@ -6,5 +6,6 @@
 int main() {
     ::testing::InitGoogleTest();
     runbasictest();
+
     return RUN_ALL_TESTS();
 }

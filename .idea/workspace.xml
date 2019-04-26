@@ -2,14 +2,14 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
     <generated>
-      <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="runBasicCalendarTests" />
-      <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="bypass_run" />
-      <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="gtest" />
       <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="gmock" />
+      <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="bypass_run" />
       <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="basictests" />
-      <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="bypass" />
       <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="gmock_main" />
       <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="gtest_main" />
+      <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="gtest" />
+      <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="bypass" />
+      <config projectName="Simulation_of_the_4th_Krakow_bypass" targetName="runBasicCalendarTests" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -18,7 +18,85 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d433da7-e8ce-4f4c-b7ec-257d396efba9" name="Default" comment="" />
+    <list default="true" id="0d433da7-e8ce-4f4c-b7ec-257d396efba9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bypass/Simulation.cpp" afterPath="$PROJECT_DIR$/bypass/Simulation.cpp" />
+      <change beforePath="$PROJECT_DIR$/bypass/Simulation.hpp" afterPath="$PROJECT_DIR$/bypass/Simulation.hpp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Simulation_of_the_4th_Krakow_bypass.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Simulation_of_the_4th_Krakow_bypass.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/bypass.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/bypass.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/basictests.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/basic_tests.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/basic_tests.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/runBasicCalendarTests" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/runBasicCalendarTests" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/bypass_tests.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/bypass_tests.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/CTestTestfile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/CTestTestfile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CTestTestfile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CTestTestfile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gmock.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gmock.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.internal" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CTestTestfile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CTestTestfile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/gtest.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/gtest.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googletest-distribution.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googletest-distribution.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +111,8 @@
       <file leaf-file-name="basic_check.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/basic_check.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,22 +168,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simulation.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Simulation.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bypass/Simulation.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simulation.hpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Simulation.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bypass/Simulation.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="e#159#175#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,7 +204,7 @@
         <entry file="file://$PROJECT_DIR$/bypass/Vehicle.hpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -215,11 +295,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Google Test.All in basic_check.cpp">
+  <component name="RunManager" selected="Application.Build All">
     <configuration name="All in basic_check.cpp" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Simulation_of_the_4th_Krakow_bypass" TARGET_NAME="runBasicCalendarTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Simulation_of_the_4th_Krakow_bypass" RUN_TARGET_NAME="runBasicCalendarTests" TEST_PATTERN="TestowyTest.*:TestowyTest/*.*:*/TestowyTest.*/*:*/TestowyTest/*.*:basic_check.*:basic_check/*.*:*/basic_check.*/*:*/basic_check/*.*" TEST_MODE="PATTERN">
       <envs />
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Simulation_of_the_4th_Krakow_bypass" TARGET_NAME="bypass_run" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Simulation_of_the_4th_Krakow_bypass" RUN_TARGET_NAME="bypass_run">
       <envs />
     </configuration>
     <configuration name="basictests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Simulation_of_the_4th_Krakow_bypass" TARGET_NAME="basictests" CONFIG_NAME="Debug">
@@ -279,6 +359,7 @@
       <updated>1556281518107</updated>
       <workItem from="1556281519420" duration="2612000" />
       <workItem from="1556297473739" duration="980000" />
+      <workItem from="1556299044309" duration="2921000" />
     </task>
     <servers />
   </component>
@@ -289,25 +370,31 @@
     <history-entry file="All_in_basic_check_cpp - 2019.04.26 at 19h 06m 39s.xml">
       <configuration name="All in basic_check.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
+    <history-entry file="All_in_basic_check_cpp - 2019.04.26 at 19h 17m 36s.xml">
+      <configuration name="All in basic_check.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_in_basic_check_cpp - 2019.04.26 at 19h 18m 54s.xml">
+      <configuration name="All in basic_check.cpp" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3592000" />
+    <option name="totallyTimeSpent" value="6513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="44" y="408" width="1617" height="1062" extended-state="6" />
+    <frame x="44" y="408" width="1368" height="720" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495356" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -328,6 +415,88 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/basic_check.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/vehicle_check.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Bypass.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Bypass.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Car.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Car.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Simulation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Vehicle.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Vehicle.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Simulation.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="e#159#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/basic_check.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -388,7 +557,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#159#175#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,31 +648,33 @@
     <entry file="file://$PROJECT_DIR$/bypass/Vehicle.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/basic_check.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bypass/Simulation.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bypass/Simulation.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#159#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Simulation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>

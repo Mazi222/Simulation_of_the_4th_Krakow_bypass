@@ -1,4 +1,4 @@
-# Install script for directory: /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests
+# Install script for directory: /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/cmake_install.cmake")
-  include("/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests/cmake_install.cmake")
+  include("/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/lib/googletest-master/cmake_install.cmake")
+  include("/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass_tests/basic_tests/cmake_install.cmake")
 
 endif()
 

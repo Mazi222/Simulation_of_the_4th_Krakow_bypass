@@ -34,4 +34,4 @@ bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/src/gte
  ../bypass_tests/lib/googletest-master/googletest/src/gtest-test-part.cc
  ../bypass_tests/lib/googletest-master/googletest/src/gtest-typed-test.cc
  ../bypass_tests/lib/googletest-master/googletest/src/gtest.cc
- /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/src/gtest-all.cc
+ /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/src/gtest-all.cc

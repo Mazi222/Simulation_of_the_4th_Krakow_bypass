@@ -1,4 +1,4 @@
-# Install script for directory: /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests
+# Install script for directory: /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

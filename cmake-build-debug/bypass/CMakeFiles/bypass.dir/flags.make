@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass 
+CXX_INCLUDES = -I/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass 
 
