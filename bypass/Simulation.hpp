@@ -12,8 +12,6 @@
 #include "Bypass.hpp"
 #include "Vehicle.hpp"
 
-#define test 0
-
 #define LEFT_LINE false
 #define RIGHT_LINE true
 
