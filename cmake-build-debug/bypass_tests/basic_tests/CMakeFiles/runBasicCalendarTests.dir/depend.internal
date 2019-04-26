@@ -23,5 +23,5 @@ bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/basic_check.cpp.o
  ../bypass_tests/lib/googletest-master/googletest/include/gtest/internal/gtest-port.h
  ../bypass_tests/lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
  ../bypass_tests/lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
- /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp
- /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.hpp
+ /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.cpp
+ /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/basic_check.hpp
