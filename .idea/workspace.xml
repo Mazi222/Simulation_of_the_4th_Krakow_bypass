@@ -18,38 +18,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d433da7-e8ce-4f4c-b7ec-257d396efba9" name="Default" comment="retardation, acceleration, randomization">
+    <list default="true" id="0d433da7-e8ce-4f4c-b7ec-257d396efba9" name="Default" comment="move function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bypass/CMakeLists.txt" afterPath="$PROJECT_DIR$/bypass/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/bypass/Simulation.cpp" afterPath="$PROJECT_DIR$/bypass/Simulation.cpp" />
       <change beforePath="$PROJECT_DIR$/bypass/Simulation.hpp" afterPath="$PROJECT_DIR$/bypass/Simulation.hpp" />
-      <change beforePath="$PROJECT_DIR$/bypass/Vehicle.cpp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bypass/Vehicle.hpp" afterPath="$PROJECT_DIR$/bypass/Vehicle.hpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Simulation_of_the_4th_Krakow_bypass.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Simulation_of_the_4th_Krakow_bypass.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/bypass.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/bypass.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,8 +88,8 @@
       <file leaf-file-name="Simulation.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bypass/Simulation.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="e#159#175#0" expanded="true" />
               </folding>
@@ -140,6 +111,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -287,7 +263,7 @@
       <updated>1556281518107</updated>
       <workItem from="1556281519420" duration="2612000" />
       <workItem from="1556297473739" duration="980000" />
-      <workItem from="1556299044309" duration="6878000" />
+      <workItem from="1556299044309" duration="7519000" />
     </task>
     <task id="LOCAL-00001" summary="Basic simulation - added base functionality">
       <created>1556302041787</created>
@@ -303,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556304821736</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="move function">
+      <created>1556306027036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1556306027036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -321,7 +304,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10470000" />
+    <option name="totallyTimeSpent" value="11111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="408" width="1368" height="720" extended-state="6" />
@@ -332,7 +315,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -356,7 +339,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Basic simulation - added base functionality" />
     <MESSAGE value="retardation, acceleration, randomization" />
-    <option name="LAST_COMMIT_MESSAGE" value="retardation, acceleration, randomization" />
+    <MESSAGE value="move function" />
+    <option name="LAST_COMMIT_MESSAGE" value="move function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -627,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bypass/Simulation.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding>
             <element signature="e#159#175#0" expanded="true" />
           </folding>
