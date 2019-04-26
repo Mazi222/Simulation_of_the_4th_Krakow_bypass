@@ -57,33 +57,9 @@ include bypass/CMakeFiles/bypass.dir/progress.make
 # Include the compile flags for this target's objects.
 include bypass/CMakeFiles/bypass.dir/flags.make
 
-bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
-bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o: ../bypass/Vehicle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o"
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Vehicle.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.cpp
-
-bypass/CMakeFiles/bypass.dir/Vehicle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bypass.dir/Vehicle.cpp.i"
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.cpp > CMakeFiles/bypass.dir/Vehicle.cpp.i
-
-bypass/CMakeFiles/bypass.dir/Vehicle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bypass.dir/Vehicle.cpp.s"
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.cpp -o CMakeFiles/bypass.dir/Vehicle.cpp.s
-
-bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o.requires:
-
-.PHONY : bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o.requires
-
-bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o.provides: bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o.requires
-	$(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o.provides.build
-.PHONY : bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o.provides
-
-bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o.provides.build: bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o
-
-
 bypass/CMakeFiles/bypass.dir/Car.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
 bypass/CMakeFiles/bypass.dir/Car.cpp.o: ../bypass/Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bypass/CMakeFiles/bypass.dir/Car.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bypass/CMakeFiles/bypass.dir/Car.cpp.o"
 	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Car.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp
 
 bypass/CMakeFiles/bypass.dir/Car.cpp.i: cmake_force
@@ -107,7 +83,7 @@ bypass/CMakeFiles/bypass.dir/Car.cpp.o.provides.build: bypass/CMakeFiles/bypass.
 
 bypass/CMakeFiles/bypass.dir/Bypass.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
 bypass/CMakeFiles/bypass.dir/Bypass.cpp.o: ../bypass/Bypass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bypass/CMakeFiles/bypass.dir/Bypass.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bypass/CMakeFiles/bypass.dir/Bypass.cpp.o"
 	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Bypass.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp
 
 bypass/CMakeFiles/bypass.dir/Bypass.cpp.i: cmake_force
@@ -131,7 +107,7 @@ bypass/CMakeFiles/bypass.dir/Bypass.cpp.o.provides.build: bypass/CMakeFiles/bypa
 
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.o: ../bypass/Simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bypass/CMakeFiles/bypass.dir/Simulation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bypass/CMakeFiles/bypass.dir/Simulation.cpp.o"
 	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Simulation.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp
 
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.i: cmake_force
@@ -155,7 +131,6 @@ bypass/CMakeFiles/bypass.dir/Simulation.cpp.o.provides.build: bypass/CMakeFiles/
 
 # Object files for target bypass
 bypass_OBJECTS = \
-"CMakeFiles/bypass.dir/Vehicle.cpp.o" \
 "CMakeFiles/bypass.dir/Car.cpp.o" \
 "CMakeFiles/bypass.dir/Bypass.cpp.o" \
 "CMakeFiles/bypass.dir/Simulation.cpp.o"
@@ -163,13 +138,12 @@ bypass_OBJECTS = \
 # External object files for target bypass
 bypass_EXTERNAL_OBJECTS =
 
-bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o
 bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/Car.cpp.o
 bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/Bypass.cpp.o
 bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/Simulation.cpp.o
 bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/build.make
 bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libbypass.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libbypass.a"
 	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && $(CMAKE_COMMAND) -P CMakeFiles/bypass.dir/cmake_clean_target.cmake
 	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bypass.dir/link.txt --verbose=$(VERBOSE)
 
@@ -178,7 +152,6 @@ bypass/CMakeFiles/bypass.dir/build: bypass/libbypass.a
 
 .PHONY : bypass/CMakeFiles/bypass.dir/build
 
-bypass/CMakeFiles/bypass.dir/requires: bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o.requires
 bypass/CMakeFiles/bypass.dir/requires: bypass/CMakeFiles/bypass.dir/Car.cpp.o.requires
 bypass/CMakeFiles/bypass.dir/requires: bypass/CMakeFiles/bypass.dir/Bypass.cpp.o.requires
 bypass/CMakeFiles/bypass.dir/requires: bypass/CMakeFiles/bypass.dir/Simulation.cpp.o.requires

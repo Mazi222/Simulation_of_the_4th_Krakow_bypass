@@ -252,33 +252,6 @@ Simulation.cpp.s:
 	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Simulation.cpp.s
 .PHONY : Simulation.cpp.s
 
-Vehicle.o: Vehicle.cpp.o
-
-.PHONY : Vehicle.o
-
-# target to build an object file
-Vehicle.cpp.o:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o
-.PHONY : Vehicle.cpp.o
-
-Vehicle.i: Vehicle.cpp.i
-
-.PHONY : Vehicle.i
-
-# target to preprocess a source file
-Vehicle.cpp.i:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Vehicle.cpp.i
-.PHONY : Vehicle.cpp.i
-
-Vehicle.s: Vehicle.cpp.s
-
-.PHONY : Vehicle.s
-
-# target to generate assembly for a file
-Vehicle.cpp.s:
-	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Vehicle.cpp.s
-.PHONY : Vehicle.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -301,9 +274,6 @@ help:
 	@echo "... Simulation.o"
 	@echo "... Simulation.i"
 	@echo "... Simulation.s"
-	@echo "... Vehicle.o"
-	@echo "... Vehicle.i"
-	@echo "... Vehicle.s"
 .PHONY : help
 
 

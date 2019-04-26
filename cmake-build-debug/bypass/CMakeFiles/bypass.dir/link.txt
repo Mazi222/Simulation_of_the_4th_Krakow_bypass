@@ -1,2 +1,2 @@
-/usr/bin/ar qc libbypass.a  CMakeFiles/bypass.dir/Vehicle.cpp.o CMakeFiles/bypass.dir/Car.cpp.o CMakeFiles/bypass.dir/Bypass.cpp.o CMakeFiles/bypass.dir/Simulation.cpp.o
+/usr/bin/ar qc libbypass.a  CMakeFiles/bypass.dir/Car.cpp.o CMakeFiles/bypass.dir/Bypass.cpp.o CMakeFiles/bypass.dir/Simulation.cpp.o
 /usr/bin/ranlib libbypass.a

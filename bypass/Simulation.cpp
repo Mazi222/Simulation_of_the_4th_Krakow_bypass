@@ -9,8 +9,10 @@ Simulation::Simulation() {
 }
 
 void Simulation::start_simulation() {
-    next_step();
-    notify_observer();
+    for(int i=0;i<50000;++i) {
+        next_step();
+        notify_observer();
+    }
 }
 
 void Simulation::next_step() { //TODO zmniejszenie ilosci kodu
@@ -68,4 +70,11 @@ void Simulation::randomized(const int &number_of_cell) {
     int speed = cells_of_bypass_line_right[number_of_cell]->get_speed();
     if(line==RIGHT_LINE && i==0)
         cells_of_bypass_line_right[number_of_cell]->set_speed(std::max(speed-1,0));
+}
+
+void Simulation::move(const int &number_of_cell) {
+    int speed = cells_of_bypass_line_right[number_of_cell]->get_speed();
+    if(number_of_cell+speed<cells_of_bypass_line_right.size())
+        cells_of_bypass_line_right[number_of_cell + speed] = cells_of_bypass_line_right[number_of_cell];
+    cells_of_bypass_line_right[number_of_cell] = nullptr;
 }

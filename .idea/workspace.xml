@@ -20,12 +20,35 @@
   <component name="ChangeListManager">
     <list default="true" id="0d433da7-e8ce-4f4c-b7ec-257d396efba9" name="Default" comment="retardation, acceleration, randomization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bypass/CMakeLists.txt" afterPath="$PROJECT_DIR$/bypass/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/bypass/Simulation.cpp" afterPath="$PROJECT_DIR$/bypass/Simulation.cpp" />
       <change beforePath="$PROJECT_DIR$/bypass/Simulation.hpp" afterPath="$PROJECT_DIR$/bypass/Simulation.hpp" />
+      <change beforePath="$PROJECT_DIR$/bypass/Vehicle.cpp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/bypass/Vehicle.hpp" afterPath="$PROJECT_DIR$/bypass/Vehicle.hpp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bypass_run.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Simulation_of_the_4th_Krakow_bypass.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Simulation_of_the_4th_Krakow_bypass.cbp" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/CXX.includecache" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/DependInfo.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/build.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/cmake_clean.cmake" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.internal" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/depend.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/link.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/bypass.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass/bypass.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass/bypass.cbp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/progress.marks" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/basic_tests/CMakeFiles/runBasicCalendarTests.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/bypass_tests/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/main.cpp" afterPath="$PROJECT_DIR$/main.cpp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -39,6 +62,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="basic_check.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/basic_check.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Car.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bypass/Car.hpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -74,8 +107,8 @@
       <file leaf-file-name="Simulation.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bypass/Simulation.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+            <state relative-caret-position="252">
+              <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -84,8 +117,8 @@
       <file leaf-file-name="Simulation.hpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bypass/Simulation.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#159#175#0" expanded="true" />
               </folding>
@@ -93,21 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vehicle.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bypass/Vehicle.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Vehicle.hpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bypass/Vehicle.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="0">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,8 +144,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/bypass/Vehicle.hpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/bypass/Simulation.cpp" />
         <option value="$PROJECT_DIR$/bypass/Simulation.hpp" />
       </list>
@@ -264,7 +287,7 @@
       <updated>1556281518107</updated>
       <workItem from="1556281519420" duration="2612000" />
       <workItem from="1556297473739" duration="980000" />
-      <workItem from="1556299044309" duration="5765000" />
+      <workItem from="1556299044309" duration="6878000" />
     </task>
     <task id="LOCAL-00001" summary="Basic simulation - added base functionality">
       <created>1556302041787</created>
@@ -273,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556302041787</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="retardation, acceleration, randomization">
+      <created>1556304821736</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556304821736</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -291,7 +321,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9357000" />
+    <option name="totallyTimeSpent" value="10470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="44" y="408" width="1368" height="720" extended-state="6" />
@@ -299,10 +329,10 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2322034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2322034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -521,14 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/basic_check.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/vehicle_check.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -545,36 +567,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/basic_check.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bypass/Car.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bypass/Vehicle.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -587,18 +583,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/basic_check.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass_tests/basic_tests/basic_check.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bypass/Vehicle.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bypass/Simulation.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        <state relative-caret-position="252">
+          <caret line="14" column="5" lean-forward="false" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bypass/Simulation.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#159#175#0" expanded="true" />
           </folding>

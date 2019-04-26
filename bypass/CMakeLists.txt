@@ -8,7 +8,6 @@ set(HEADER_FILES
         )
 
 set(SOURCE_FILES
-        Vehicle.cpp
         Car.cpp
         Bypass.cpp
         Simulation.cpp

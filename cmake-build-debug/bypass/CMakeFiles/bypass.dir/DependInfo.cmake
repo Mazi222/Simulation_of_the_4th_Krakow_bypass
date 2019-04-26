@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Bypass.cpp.o"
   "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Car.cpp.o"
   "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Simulation.cpp.o"
-  "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.cpp" "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

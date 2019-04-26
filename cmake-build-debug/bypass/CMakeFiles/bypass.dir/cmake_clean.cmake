@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/bypass.dir/Vehicle.cpp.o"
   "CMakeFiles/bypass.dir/Car.cpp.o"
   "CMakeFiles/bypass.dir/Bypass.cpp.o"
   "CMakeFiles/bypass.dir/Simulation.cpp.o"

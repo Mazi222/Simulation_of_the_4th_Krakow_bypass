@@ -21,6 +21,8 @@ public:
     void start_simulation();
     ~Simulation() = default;
 private:
+    void add_car_alfa();
+
     bool check_change_of_line(const int &number_of_cell) const;
     void change_right(const int &number_of_cell);
     void change_left(const int &number_of_cell);
@@ -37,7 +39,6 @@ private:
     void notify_observer() const;
 private:
     int vmax=5;
-    int i=1;
     bool line;
     std::vector<std::shared_ptr<Bypass>> bypasses;
     std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_right;

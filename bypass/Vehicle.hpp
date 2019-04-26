@@ -9,13 +9,19 @@
 
 class Vehicle {
 public:
+    Vehicle(){speed=1;}
+    void set_speed(const int& new_speed)
+    {
+        speed=new_speed;
+    }
+    const double& get_speed() const
+    {
+        return speed;
+    }
 
-    void set_speed(const int& new_speed);
-
-    const double& get_speed() const;
     const std::string& get_destination() const;
 
-    virtual ~Vehicle();
+    virtual ~Vehicle() = default;
 protected:
     int speed;
     std::string destination;
