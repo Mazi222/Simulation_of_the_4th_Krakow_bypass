@@ -22,8 +22,10 @@ public:
     Simulation();
     void start_simulation();
     ~Simulation() = default;
-private:
+private: //temporary
     void add_car_alfa();
+
+private:
 
     bool check_change_of_line(const int &number_of_cell) const;
     void change_right(const int &number_of_cell);
