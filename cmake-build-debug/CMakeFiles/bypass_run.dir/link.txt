@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/bypass_run.dir/main.cpp.o  -o bypass_run lib/libgtestd.a lib/libgtest_maind.a bypass_tests/basic_tests/libbasictests.a bypass/libbypass.a lib/libgtestd.a -lpthread 
