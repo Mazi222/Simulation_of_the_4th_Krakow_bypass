@@ -11,6 +11,7 @@ bypass/CMakeFiles/bypass.dir/Car.cpp.o: ../bypass/Vehicle.hpp
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.o: ../bypass/Bypass.hpp
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.o: ../bypass/Simulation.cpp
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.o: ../bypass/Simulation.hpp
+bypass/CMakeFiles/bypass.dir/Simulation.cpp.o: ../bypass/Vehicle.hpp
 
 bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o: ../bypass/Vehicle.cpp
 bypass/CMakeFiles/bypass.dir/Vehicle.cpp.o: ../bypass/Vehicle.hpp

@@ -4,8 +4,7 @@
 #include "bypass_tests/basic_tests/basic_check.hpp"
 
 int main() {
-    ::testing::InitGoogleTest();
     runbasictest();
-
+    ::testing::InitGoogleTest();
     return RUN_ALL_TESTS();
 }

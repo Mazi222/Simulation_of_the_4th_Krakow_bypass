@@ -29,8 +29,12 @@ array
 -
 memory
 -
+vector
+-
 Bypass.hpp
 /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
+Vehicle.hpp
+/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
 
 /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.cpp
 Vehicle.hpp

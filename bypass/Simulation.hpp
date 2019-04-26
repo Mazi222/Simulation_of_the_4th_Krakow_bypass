@@ -12,8 +12,8 @@
 #include "Bypass.hpp"
 #include "Vehicle.hpp"
 
-#define left 0
-#define right 1
+#define LEFT_LINE false
+#define RIGHT_LINE true
 
 class Simulation {
 public:
@@ -24,9 +24,11 @@ private:
     bool check_change_of_line(const int &number_of_cell) const;
     void change_right(const int &number_of_cell);
     void change_left(const int &number_of_cell);
+
     void accelerate(const int &number_of_cell);
     void retardation(const int &number_of_cell);
     void randomized(const int &number_of_cell);
+
     void move(const int &number_of_cell);
 
 
@@ -34,6 +36,8 @@ private:
     void next_step();
     void notify_observer() const;
 private:
+    int vmax=5;
+    int i=1;
     bool line;
     std::vector<std::shared_ptr<Bypass>> bypasses;
     std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_right;

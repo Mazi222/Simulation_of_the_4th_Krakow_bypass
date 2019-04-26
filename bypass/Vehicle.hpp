@@ -9,19 +9,15 @@
 
 class Vehicle {
 public:
-    virtual void move() = 0;
 
-    void set_speed(const double& new_speed);
+    void set_speed(const int& new_speed);
 
     const double& get_speed() const;
     const std::string& get_destination() const;
 
     virtual ~Vehicle();
 protected:
-    double speed;
-    double acceleration;
-    double retardation;
-
+    int speed;
     std::string destination;
 };
 
