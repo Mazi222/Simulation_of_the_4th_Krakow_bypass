@@ -16,7 +16,7 @@ void Simulation::start_simulation() {
 }
 
 void Simulation::next_step() { //TODO zmniejszenie ilosci kodu
-    for(int number_of_cell=0;number_of_cell<cells_of_bypass_line_right.size();++number_of_cell)
+    for(int number_of_cell=cells_of_bypass_line_right.size()-1;number_of_cell>=0;--number_of_cell)
     {
         line=RIGHT_LINE;
         if(cells_of_bypass_line_right[number_of_cell] == nullptr)
