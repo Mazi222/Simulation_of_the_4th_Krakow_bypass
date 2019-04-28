@@ -23,7 +23,7 @@ void Simulation::next_step() { //TODO zmniejszenie ilosci kodu
     {
         line=RIGHT_LINE;
         if(cells_of_bypass_line_right[number_of_cell] == nullptr)
-            continue;
+            continue; //TODO nie może tu być continue bo się LEFT_LINE też nie wykona
 //        if(check_change_of_line(number_of_cell))
 //            change_left(number_of_cell);
         accelerate(number_of_cell);
