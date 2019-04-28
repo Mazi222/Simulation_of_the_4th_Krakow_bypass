@@ -20,14 +20,18 @@ public:
     Simulation();
     void start_simulation();
     ~Simulation() = default;
+
 private: //temporary
     void add_car_alfa();
 
+public:
+    void simulate_alfa();
+
 private:
 
-    bool check_change_of_line(const int &number_of_cell) const;
-    void change_right(const int &number_of_cell);
-    void change_left(const int &number_of_cell);
+//    bool check_change_of_line(const int &number_of_cell) const;
+//    void change_right(const int &number_of_cell);
+//    void change_left(const int &number_of_cell);
 
     void accelerate(const int &number_of_cell);
     void retardation(const int &number_of_cell);
@@ -36,9 +40,9 @@ private:
     void move(const int &number_of_cell);
 
 
-    void get_data();
+//    void get_data();
     void next_step();
-    void notify_observer() const;
+//    void notify_observer() const;
 private:
     int vmax=5;
     bool line;

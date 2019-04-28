@@ -21,6 +21,10 @@ Vehicle.hpp
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
 
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp
+iostream
+-
+zconf.h
+-
 Simulation.hpp
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.hpp
 

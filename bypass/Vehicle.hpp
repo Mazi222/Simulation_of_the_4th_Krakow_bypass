@@ -14,7 +14,7 @@ public:
     {
         speed=new_speed;
     }
-    const double& get_speed() const
+    const int& get_speed() const
     {
         return speed;
     }

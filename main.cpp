@@ -5,7 +5,10 @@
 #include "Simulation.hpp"
 
 int main() {
-    runbasictest();
-    ::testing::InitGoogleTest();
-    return RUN_ALL_TESTS();//test
+//    runbasictest();
+//    ::testing::InitGoogleTest();
+//    return RUN_ALL_TESTS();//test
+    srand(time(NULL));
+    Simulation simulation;
+    simulation.simulate_alfa();
 }
