@@ -84,6 +84,8 @@ void Simulation::move(const int &number_of_cell) {
     cells_of_bypass_line_right[number_of_cell] = nullptr;
 }
 
+
+
 /*-----------------------------alfa---------------------------------*/
 void Simulation::add_car_alfa() {
     std::shared_ptr<Vehicle> ptr_vehicle = std::make_shared<Vehicle>();
@@ -121,3 +123,65 @@ void Simulation::simulate_alfa() {
         std::cout << std::endl;
     }
 }
+
+bool Simulation::check_change_of_line(const int &number_of_cell) const {
+    if(line==RIGHT_LINE) {
+        bool is_needed = false;
+        bool is_possible = true;
+        for (int checked_cell = //TODO change to function check_if_line_changing_needed()
+                number_of_cell + std::min(cells_of_bypass_line_right[number_of_cell]->get_speed() + 1, vmax);
+             checked_cell >= number_of_cell; --checked_cell) {
+            if (cells_of_bypass_line_right[checked_cell] != nullptr) {
+            is_needed = true;
+            break;
+            }
+        }
+        if (!is_needed)
+            return false;
+        for (int checked_cell = number_of_cell; //TODO change to function check_if_line_changing_possible()
+             checked_cell>=number_of_cell-vmax;--checked_cell){
+            if (cells_of_bypass_line_left[checked_cell] != nullptr){
+                if(checked_cell+std::min(cells_of_bypass_line_left[checked_cell]->get_speed()+1,vmax)
+                   >=number_of_cell+std::max(cells_of_bypass_line_right[checked_cell]->get_speed(),vmax)){
+                    is_possible = false;
+                    break;
+                }
+            }
+        }
+        return is_possible;
+    }
+
+    if(line==LEFT_LINE){
+        for (int checked_cell = number_of_cell;
+             checked_cell>=number_of_cell-vmax;--checked_cell){
+            if (cells_of_bypass_line_right[checked_cell] != nullptr) {
+                if (checked_cell + std::min(cells_of_bypass_line_right[checked_cell]->get_speed()+1, vmax)
+                    >= number_of_cell + std::min(cells_of_bypass_line_left[checked_cell]->get_speed()+1, vmax)) {
+                        return false;
+                    }
+                }
+            }
+        for (int checked_cell = number_of_cell+vmax;
+                checked_cell>=number_of_cell;--checked_cell){
+            if (cells_of_bypass_line_right[checked_cell] != nullptr){
+                if (checked_cell + std::min(cells_of_bypass_line_right[checked_cell]->get_speed()+1,vmax)
+                        <= number_of_cell+std::min(cells_of_bypass_line_left[checked_cell]->get_speed()+1,vmax)){
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+}
+
+void Simulation::change_right(const int &number_of_cell) {
+    cells_of_bypass_line_right[number_of_cell] = cells_of_bypass_line_left[number_of_cell];
+    cells_of_bypass_line_left[number_of_cell] = nullptr;
+}
+
+void Simulation::change_left(const int &number_of_cell) {
+    cells_of_bypass_line_left[number_of_cell] = cells_of_bypass_line_right[number_of_cell];
+    cells_of_bypass_line_right[number_of_cell] = nullptr;
+}
+
+
