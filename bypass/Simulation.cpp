@@ -27,12 +27,13 @@ void Simulation::next_step() { //TODO zmniejszenie ilosci kodu
             if(check_change_of_line(number_of_cell)) {
                 std::cout<<"change to left"<<std::endl;
                 change_left(number_of_cell);
-            } else {
+                line=LEFT_LINE;
+            }
                 accelerate(number_of_cell);
                 retardation(number_of_cell);
                 randomized(number_of_cell);
                 move(number_of_cell);
-            }
+
         }
         if(cells_of_bypass_line_left[number_of_cell] != nullptr) {
             line=LEFT_LINE;
@@ -143,7 +144,7 @@ void Simulation::simulate_alfa() {
         cells_of_bypass_line_left.push_back(nullptr);
     }
     for(int i=0;i<50000;++i){
-        sleep(0.1);
+        sleep(1);
         next_step();
         add_car_alfa();
         for(int number_of_cell = 0; number_of_cell<=cells_of_bypass_line_left.size()-1;++number_of_cell) {
