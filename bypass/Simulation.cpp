@@ -22,20 +22,26 @@ void Simulation::next_step() { //TODO zmniejszenie ilosci kodu
 
     for(int number_of_cell=cells_of_bypass_line_right.size()-1;number_of_cell>=0;--number_of_cell)
     {
-
         if(cells_of_bypass_line_right[number_of_cell] != nullptr) {
             line=RIGHT_LINE;
-//        if(check_change_of_line(number_of_cell))
-//            change_left(number_of_cell);
-            accelerate(number_of_cell);
-            retardation(number_of_cell);
-            randomized(number_of_cell);
-            move(number_of_cell);
+            if(check_change_of_line(number_of_cell)) {
+                std::cout<<"change to left"<<std::endl;
+                change_left(number_of_cell);
+            } else {
+                accelerate(number_of_cell);
+                retardation(number_of_cell);
+                randomized(number_of_cell);
+                move(number_of_cell);
+            }
         }
-        else if(cells_of_bypass_line_left[number_of_cell] != nullptr) {
+        if(cells_of_bypass_line_left[number_of_cell] != nullptr) {
             line=LEFT_LINE;
-//        if(check_change_of_line(number_of_cell))
-//            change_right(number_of_cell);
+            if(check_change_of_line(number_of_cell))
+            {
+                std::cout<<"change to right"<<std::endl;
+                change_right(number_of_cell);
+                line=RIGHT_LINE;
+            }
             accelerate(number_of_cell);
             retardation(number_of_cell);
             randomized(number_of_cell);
@@ -137,7 +143,7 @@ void Simulation::simulate_alfa() {
         cells_of_bypass_line_left.push_back(nullptr);
     }
     for(int i=0;i<50000;++i){
-        sleep(1);
+        sleep(0.1);
         next_step();
         add_car_alfa();
         for(int number_of_cell = 0; number_of_cell<=cells_of_bypass_line_left.size()-1;++number_of_cell) {
@@ -164,19 +170,20 @@ bool Simulation::check_change_of_line(const int &number_of_cell) const {
         bool is_possible = true;
         for (int checked_cell = //TODO change to function check_if_line_changing_needed()
                 number_of_cell + std::min(cells_of_bypass_line_right[number_of_cell]->get_speed() + 1, vmax);
-             checked_cell >= number_of_cell; --checked_cell) {
+             checked_cell > number_of_cell; --checked_cell) {
             if (cells_of_bypass_line_right[checked_cell] != nullptr) {
-            is_needed = true;
-            break;
+                is_needed = true;
+                break;
             }
         }
         if (!is_needed)
             return false;
+
         for (int checked_cell = number_of_cell; //TODO change to function check_if_line_changing_possible()
-             checked_cell>=number_of_cell-vmax;--checked_cell){
+             checked_cell>=std::max(number_of_cell-vmax,0);--checked_cell){
             if (cells_of_bypass_line_left[checked_cell] != nullptr){
                 if(checked_cell+std::min(cells_of_bypass_line_left[checked_cell]->get_speed()+1,vmax)
-                   >=number_of_cell+std::max(cells_of_bypass_line_right[checked_cell]->get_speed(),vmax)){
+                   >=number_of_cell+std::min(cells_of_bypass_line_right[number_of_cell]->get_speed()+1,vmax)){
                     is_possible = false;
                     break;
                 }
@@ -187,10 +194,10 @@ bool Simulation::check_change_of_line(const int &number_of_cell) const {
 
     if(line==LEFT_LINE){
         for (int checked_cell = number_of_cell;
-             checked_cell>=number_of_cell-vmax;--checked_cell){
+             checked_cell>=std::max(number_of_cell-vmax,0);--checked_cell){
             if (cells_of_bypass_line_right[checked_cell] != nullptr) {
                 if (checked_cell + std::min(cells_of_bypass_line_right[checked_cell]->get_speed()+1, vmax)
-                    >= number_of_cell + std::min(cells_of_bypass_line_left[checked_cell]->get_speed()+1, vmax)) {
+                    >= number_of_cell + std::min(cells_of_bypass_line_left[number_of_cell]->get_speed()+1, vmax)) {
                         return false;
                     }
                 }
@@ -198,8 +205,8 @@ bool Simulation::check_change_of_line(const int &number_of_cell) const {
         for (int checked_cell = number_of_cell+vmax;
                 checked_cell>=number_of_cell;--checked_cell){
             if (cells_of_bypass_line_right[checked_cell] != nullptr){
-                if (checked_cell + std::min(cells_of_bypass_line_right[checked_cell]->get_speed()+1,vmax)
-                        <= number_of_cell+std::min(cells_of_bypass_line_left[checked_cell]->get_speed()+1,vmax)){
+                if (checked_cell +std::min(cells_of_bypass_line_right[checked_cell]->get_speed()+1,vmax)
+                        <= number_of_cell + std::min(cells_of_bypass_line_left[number_of_cell]->get_speed()+1,vmax)){
                     return false;
                 }
             }
