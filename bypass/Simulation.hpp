@@ -29,9 +29,9 @@ public:
 
 private:
 
-//    bool check_change_of_line(const int &number_of_cell) const;
-//    void change_right(const int &number_of_cell);
-//    void change_left(const int &number_of_cell);
+    bool check_change_of_line(const int &number_of_cell) const;
+    void change_right(const int &number_of_cell);
+    void change_left(const int &number_of_cell);
 
     void accelerate(const int &number_of_cell);
     void retardation(const int &number_of_cell);
