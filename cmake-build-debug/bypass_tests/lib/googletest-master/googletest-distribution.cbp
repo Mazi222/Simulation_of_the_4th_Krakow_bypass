@@ -252,11 +252,32 @@
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\bypass\"/>
 		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\"/>
+		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\bypass_tests\"/>
 		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\"/>
 		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\"/>
@@ -267,8 +288,41 @@
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
 			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\cmake\"/>
 		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googlemock\cmake\"/>
+		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
 		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/Config.cmake.in">
 			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
@@ -281,6 +335,57 @@
 		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/lib/googletest-master/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\bypass_tests\lib\googletest-master\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\basic_tests\"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\bypass_tests\basic_tests\"/>
 		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass_tests/basic_tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\bypass_tests\basic_tests\"/>
