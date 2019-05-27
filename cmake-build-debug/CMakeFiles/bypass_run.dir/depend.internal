@@ -3,6 +3,9 @@
 
 CMakeFiles/bypass_run.dir/main.cpp.o
  ../bypass/Bypass.hpp
+ ../bypass/BypassSection.hpp
+ ../bypass/Junction.hpp
+ ../bypass/Road.hpp
  ../bypass/Simulation.hpp
  ../bypass/Vehicle.hpp
  ../bypass_tests/lib/googletest-master/googletest/include/gtest/gtest-death-test.h

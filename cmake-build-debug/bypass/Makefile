@@ -198,6 +198,33 @@ Bypass.cpp.s:
 	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Bypass.cpp.s
 .PHONY : Bypass.cpp.s
 
+BypassSection.o: BypassSection.cpp.o
+
+.PHONY : BypassSection.o
+
+# target to build an object file
+BypassSection.cpp.o:
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/BypassSection.cpp.o
+.PHONY : BypassSection.cpp.o
+
+BypassSection.i: BypassSection.cpp.i
+
+.PHONY : BypassSection.i
+
+# target to preprocess a source file
+BypassSection.cpp.i:
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/BypassSection.cpp.i
+.PHONY : BypassSection.cpp.i
+
+BypassSection.s: BypassSection.cpp.s
+
+.PHONY : BypassSection.s
+
+# target to generate assembly for a file
+BypassSection.cpp.s:
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/BypassSection.cpp.s
+.PHONY : BypassSection.cpp.s
+
 Car.o: Car.cpp.o
 
 .PHONY : Car.o
@@ -224,6 +251,60 @@ Car.s: Car.cpp.s
 Car.cpp.s:
 	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Car.cpp.s
 .PHONY : Car.cpp.s
+
+Junction.o: Junction.cpp.o
+
+.PHONY : Junction.o
+
+# target to build an object file
+Junction.cpp.o:
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Junction.cpp.o
+.PHONY : Junction.cpp.o
+
+Junction.i: Junction.cpp.i
+
+.PHONY : Junction.i
+
+# target to preprocess a source file
+Junction.cpp.i:
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Junction.cpp.i
+.PHONY : Junction.cpp.i
+
+Junction.s: Junction.cpp.s
+
+.PHONY : Junction.s
+
+# target to generate assembly for a file
+Junction.cpp.s:
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Junction.cpp.s
+.PHONY : Junction.cpp.s
+
+Road.o: Road.cpp.o
+
+.PHONY : Road.o
+
+# target to build an object file
+Road.cpp.o:
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Road.cpp.o
+.PHONY : Road.cpp.o
+
+Road.i: Road.cpp.i
+
+.PHONY : Road.i
+
+# target to preprocess a source file
+Road.cpp.i:
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Road.cpp.i
+.PHONY : Road.cpp.i
+
+Road.s: Road.cpp.s
+
+.PHONY : Road.s
+
+# target to generate assembly for a file
+Road.cpp.s:
+	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(MAKE) -f bypass/CMakeFiles/bypass.dir/build.make bypass/CMakeFiles/bypass.dir/Road.cpp.s
+.PHONY : Road.cpp.s
 
 Simulation.o: Simulation.cpp.o
 
@@ -268,9 +349,18 @@ help:
 	@echo "... Bypass.o"
 	@echo "... Bypass.i"
 	@echo "... Bypass.s"
+	@echo "... BypassSection.o"
+	@echo "... BypassSection.i"
+	@echo "... BypassSection.s"
 	@echo "... Car.o"
 	@echo "... Car.i"
 	@echo "... Car.s"
+	@echo "... Junction.o"
+	@echo "... Junction.i"
+	@echo "... Junction.s"
+	@echo "... Road.o"
+	@echo "... Road.i"
+	@echo "... Road.s"
 	@echo "... Simulation.o"
 	@echo "... Simulation.i"
 	@echo "... Simulation.s"
