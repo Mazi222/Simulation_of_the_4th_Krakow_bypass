@@ -11,5 +11,5 @@ int main() {
 //    return RUN_ALL_TESTS();//test
 //    srand(time(NULL));
     Simulation simulation;
-    simulation.simulate_alfa();
+    simulation.simulate_beta();
 }

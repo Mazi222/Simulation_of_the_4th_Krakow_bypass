@@ -26,14 +26,14 @@ public:
     ~Simulation() = default;
 
 private: //temporary
-    void add_car_alfa();
+    int test = 0;
     void stepWithEntry(int number_of_cell);
     void stepWithDepartue(int number_of_cell);
     void step(int number_of_cell);
     bool enterRoad(const int &number_of_cell);
 
 public:
-    void simulate_alfa();
+    void simulate_beta();
     void initializeBypass();
 
 private:
