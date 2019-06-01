@@ -1,4 +1,0 @@
-/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass
--- Configuring done
--- Generating done
--- Build files have been written to: /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
