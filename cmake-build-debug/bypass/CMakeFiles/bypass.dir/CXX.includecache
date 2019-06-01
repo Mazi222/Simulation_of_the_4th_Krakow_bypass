@@ -7,10 +7,26 @@
 #IncludeRegexTransform: 
 
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp
+iostream
+-
 Bypass.hpp
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
+Road.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.hpp
 
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
+BypassSection.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.hpp
+vector
+-
+memory
+-
+
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.cpp
+BypassSection.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.hpp
+
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.hpp
 
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp
 Car.hpp
@@ -20,10 +36,28 @@ Car.hpp
 Vehicle.hpp
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
 
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.cpp
+Junction.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.hpp
+
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.hpp
+BypassSection.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.hpp
+
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.cpp
+Road.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.hpp
+
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.hpp
+BypassSection.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.hpp
+
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp
 iostream
 -
 unistd.h
+-
+random
 -
 Simulation.hpp
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.hpp
@@ -39,6 +73,10 @@ Bypass.hpp
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp
 Vehicle.hpp
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
+Road.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.hpp
+Junction.hpp
+/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.hpp
 
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Vehicle.hpp
 string

@@ -504,10 +504,28 @@
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.hpp">
 			<Option target="bypass"/>
 		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.cpp">
+			<Option target="bypass"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.hpp">
+			<Option target="bypass"/>
+		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp">
 			<Option target="bypass"/>
 		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.hpp">
+			<Option target="bypass"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.cpp">
+			<Option target="bypass"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.hpp">
+			<Option target="bypass"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.cpp">
+			<Option target="bypass"/>
+		</Unit>
+		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.hpp">
 			<Option target="bypass"/>
 		</Unit>
 		<Unit filename="/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp">

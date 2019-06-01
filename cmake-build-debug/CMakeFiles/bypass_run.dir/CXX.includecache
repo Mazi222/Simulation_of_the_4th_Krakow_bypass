@@ -7,6 +7,22 @@
 #IncludeRegexTransform: 
 
 ../bypass/Bypass.hpp
+BypassSection.hpp
+../bypass/BypassSection.hpp
+vector
+-
+memory
+-
+
+../bypass/BypassSection.hpp
+
+../bypass/Junction.hpp
+BypassSection.hpp
+../bypass/BypassSection.hpp
+
+../bypass/Road.hpp
+BypassSection.hpp
+../bypass/BypassSection.hpp
 
 ../bypass/Simulation.hpp
 array
@@ -19,6 +35,10 @@ Bypass.hpp
 ../bypass/Bypass.hpp
 Vehicle.hpp
 ../bypass/Vehicle.hpp
+Road.hpp
+../bypass/Road.hpp
+Junction.hpp
+../bypass/Junction.hpp
 
 ../bypass/Vehicle.hpp
 string
@@ -324,6 +344,8 @@ acxx_demangle.h
 
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/main.cpp
 iostream
+-
+Road.hpp
 -
 gtest/gtest.h
 /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/gtest/gtest.h

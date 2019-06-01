@@ -1,4 +1,5 @@
 #include <iostream>
+#include <Road.hpp>
 
 #include "gtest/gtest.h"
 #include "bypass_tests/basic_tests/basic_check.hpp"
@@ -8,7 +9,7 @@ int main() {
 //    runbasictest();
 //    ::testing::InitGoogleTest();
 //    return RUN_ALL_TESTS();//test
-    srand(time(NULL));
+//    srand(time(NULL));
     Simulation simulation;
-    simulation.simulate_alfa();
+    simulation.simulate_beta();
 }

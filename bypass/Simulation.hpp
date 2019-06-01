@@ -11,9 +11,13 @@
 #include <vector>
 #include "Bypass.hpp"
 #include "Vehicle.hpp"
+#include "Road.hpp"
+#include "Junction.hpp"
 
-#define LEFT_LINE false
-#define RIGHT_LINE true
+
+#define LEFT_LINE 1
+#define RIGHT_LINE 2
+#define  TEMP_LINE 3
 
 class Simulation {
 public:
@@ -22,10 +26,15 @@ public:
     ~Simulation() = default;
 
 private: //temporary
-    void add_car_alfa();
+    int test = 0;
+    void stepWithEntry(int number_of_cell);
+    void stepWithDepartue(int number_of_cell);
+    void step(int number_of_cell);
+    bool enterRoad(const int &number_of_cell);
 
 public:
-    void simulate_alfa();
+    void simulate_beta();
+    void initializeBypass();
 
 private:
 
@@ -38,17 +47,18 @@ private:
     void randomized(const int &number_of_cell);
 
     void move(const int &number_of_cell);
-
+    Bypass bypass;
 
 //    void get_data();
     void next_step();
 //    void notify_observer() const;
 private:
     int vmax=5;
-    bool line;
-    std::vector<std::shared_ptr<Bypass>> bypasses;
+    int line;
+    //std::vector<std::shared_ptr<Bypass>> bypasses;
     std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_right;
     std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_left;
+    std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_temp;
 };
 
 
