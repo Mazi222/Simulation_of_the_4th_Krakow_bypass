@@ -290,7 +290,7 @@ void Simulation::initializeBypass() { //TODO model of real bypass
     bypass.addBypassSection(std::make_shared<Road>(46,sizeOfBypass, 5));
 }
 
-void Simulation::stepWithEntry(int number_of_cell) { //TODO improve random
+void Simulation::stepWithEntry(int number_of_cell) { //TODO improve  random
     std::random_device rd;      //Will be used to obtain a seed for the random number engine
     std::mt19937 mt(rd());      //Standard mersenne_twister_engine seeded with rd()
     std::uniform_int_distribution<int> dist(1, 100);
