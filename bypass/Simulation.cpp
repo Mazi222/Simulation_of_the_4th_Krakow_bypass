@@ -168,7 +168,7 @@ void Simulation::move(const int &number_of_cell) {
 /*-----------------------------beta---------------------------------*/
 void Simulation::simulate_beta() {
     int numbersOfCars = 0;
-    for (int i = 0; i < 5103; ++i) {
+    for (int i = 0; i < 5104; ++i) {
         cells_of_bypass_line_right.push_back(nullptr);
         cells_of_bypass_line_left.push_back(nullptr);
         cells_of_bypass_line_temp.push_back(nullptr);
