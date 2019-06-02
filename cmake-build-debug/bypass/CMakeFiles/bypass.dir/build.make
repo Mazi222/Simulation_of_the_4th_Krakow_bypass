@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
+RM = /home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass
+CMAKE_SOURCE_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
+CMAKE_BINARY_DIR = /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include bypass/CMakeFiles/bypass.dir/depend.make
@@ -59,16 +59,16 @@ include bypass/CMakeFiles/bypass.dir/flags.make
 
 bypass/CMakeFiles/bypass.dir/Car.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
 bypass/CMakeFiles/bypass.dir/Car.cpp.o: ../bypass/Car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bypass/CMakeFiles/bypass.dir/Car.cpp.o"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Car.cpp.o -c /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object bypass/CMakeFiles/bypass.dir/Car.cpp.o"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Car.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp
 
 bypass/CMakeFiles/bypass.dir/Car.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bypass.dir/Car.cpp.i"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp > CMakeFiles/bypass.dir/Car.cpp.i
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp > CMakeFiles/bypass.dir/Car.cpp.i
 
 bypass/CMakeFiles/bypass.dir/Car.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bypass.dir/Car.cpp.s"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp -o CMakeFiles/bypass.dir/Car.cpp.s
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Car.cpp -o CMakeFiles/bypass.dir/Car.cpp.s
 
 bypass/CMakeFiles/bypass.dir/Car.cpp.o.requires:
 
@@ -83,16 +83,16 @@ bypass/CMakeFiles/bypass.dir/Car.cpp.o.provides.build: bypass/CMakeFiles/bypass.
 
 bypass/CMakeFiles/bypass.dir/Bypass.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
 bypass/CMakeFiles/bypass.dir/Bypass.cpp.o: ../bypass/Bypass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bypass/CMakeFiles/bypass.dir/Bypass.cpp.o"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Bypass.cpp.o -c /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object bypass/CMakeFiles/bypass.dir/Bypass.cpp.o"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Bypass.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp
 
 bypass/CMakeFiles/bypass.dir/Bypass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bypass.dir/Bypass.cpp.i"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp > CMakeFiles/bypass.dir/Bypass.cpp.i
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp > CMakeFiles/bypass.dir/Bypass.cpp.i
 
 bypass/CMakeFiles/bypass.dir/Bypass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bypass.dir/Bypass.cpp.s"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp -o CMakeFiles/bypass.dir/Bypass.cpp.s
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Bypass.cpp -o CMakeFiles/bypass.dir/Bypass.cpp.s
 
 bypass/CMakeFiles/bypass.dir/Bypass.cpp.o.requires:
 
@@ -107,16 +107,16 @@ bypass/CMakeFiles/bypass.dir/Bypass.cpp.o.provides.build: bypass/CMakeFiles/bypa
 
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.o: ../bypass/Simulation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bypass/CMakeFiles/bypass.dir/Simulation.cpp.o"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Simulation.cpp.o -c /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object bypass/CMakeFiles/bypass.dir/Simulation.cpp.o"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Simulation.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp
 
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bypass.dir/Simulation.cpp.i"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp > CMakeFiles/bypass.dir/Simulation.cpp.i
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp > CMakeFiles/bypass.dir/Simulation.cpp.i
 
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bypass.dir/Simulation.cpp.s"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp -o CMakeFiles/bypass.dir/Simulation.cpp.s
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Simulation.cpp -o CMakeFiles/bypass.dir/Simulation.cpp.s
 
 bypass/CMakeFiles/bypass.dir/Simulation.cpp.o.requires:
 
@@ -131,16 +131,16 @@ bypass/CMakeFiles/bypass.dir/Simulation.cpp.o.provides.build: bypass/CMakeFiles/
 
 bypass/CMakeFiles/bypass.dir/BypassSection.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
 bypass/CMakeFiles/bypass.dir/BypassSection.cpp.o: ../bypass/BypassSection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bypass/CMakeFiles/bypass.dir/BypassSection.cpp.o"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/BypassSection.cpp.o -c /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object bypass/CMakeFiles/bypass.dir/BypassSection.cpp.o"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/BypassSection.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.cpp
 
 bypass/CMakeFiles/bypass.dir/BypassSection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bypass.dir/BypassSection.cpp.i"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.cpp > CMakeFiles/bypass.dir/BypassSection.cpp.i
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.cpp > CMakeFiles/bypass.dir/BypassSection.cpp.i
 
 bypass/CMakeFiles/bypass.dir/BypassSection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bypass.dir/BypassSection.cpp.s"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.cpp -o CMakeFiles/bypass.dir/BypassSection.cpp.s
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/BypassSection.cpp -o CMakeFiles/bypass.dir/BypassSection.cpp.s
 
 bypass/CMakeFiles/bypass.dir/BypassSection.cpp.o.requires:
 
@@ -155,16 +155,16 @@ bypass/CMakeFiles/bypass.dir/BypassSection.cpp.o.provides.build: bypass/CMakeFil
 
 bypass/CMakeFiles/bypass.dir/Road.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
 bypass/CMakeFiles/bypass.dir/Road.cpp.o: ../bypass/Road.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bypass/CMakeFiles/bypass.dir/Road.cpp.o"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Road.cpp.o -c /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object bypass/CMakeFiles/bypass.dir/Road.cpp.o"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Road.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Road.cpp
 
 bypass/CMakeFiles/bypass.dir/Road.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bypass.dir/Road.cpp.i"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.cpp > CMakeFiles/bypass.dir/Road.cpp.i
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Road.cpp > CMakeFiles/bypass.dir/Road.cpp.i
 
 bypass/CMakeFiles/bypass.dir/Road.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bypass.dir/Road.cpp.s"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Road.cpp -o CMakeFiles/bypass.dir/Road.cpp.s
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Road.cpp -o CMakeFiles/bypass.dir/Road.cpp.s
 
 bypass/CMakeFiles/bypass.dir/Road.cpp.o.requires:
 
@@ -179,16 +179,16 @@ bypass/CMakeFiles/bypass.dir/Road.cpp.o.provides.build: bypass/CMakeFiles/bypass
 
 bypass/CMakeFiles/bypass.dir/Junction.cpp.o: bypass/CMakeFiles/bypass.dir/flags.make
 bypass/CMakeFiles/bypass.dir/Junction.cpp.o: ../bypass/Junction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bypass/CMakeFiles/bypass.dir/Junction.cpp.o"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Junction.cpp.o -c /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object bypass/CMakeFiles/bypass.dir/Junction.cpp.o"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bypass.dir/Junction.cpp.o -c /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.cpp
 
 bypass/CMakeFiles/bypass.dir/Junction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bypass.dir/Junction.cpp.i"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.cpp > CMakeFiles/bypass.dir/Junction.cpp.i
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.cpp > CMakeFiles/bypass.dir/Junction.cpp.i
 
 bypass/CMakeFiles/bypass.dir/Junction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bypass.dir/Junction.cpp.s"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.cpp -o CMakeFiles/bypass.dir/Junction.cpp.s
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass/Junction.cpp -o CMakeFiles/bypass.dir/Junction.cpp.s
 
 bypass/CMakeFiles/bypass.dir/Junction.cpp.o.requires:
 
@@ -221,9 +221,9 @@ bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/Road.cpp.o
 bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/Junction.cpp.o
 bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/build.make
 bypass/libbypass.a: bypass/CMakeFiles/bypass.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libbypass.a"
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && $(CMAKE_COMMAND) -P CMakeFiles/bypass.dir/cmake_clean_target.cmake
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bypass.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libbypass.a"
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && $(CMAKE_COMMAND) -P CMakeFiles/bypass.dir/cmake_clean_target.cmake
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bypass.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 bypass/CMakeFiles/bypass.dir/build: bypass/libbypass.a
@@ -240,10 +240,10 @@ bypass/CMakeFiles/bypass.dir/requires: bypass/CMakeFiles/bypass.dir/Junction.cpp
 .PHONY : bypass/CMakeFiles/bypass.dir/requires
 
 bypass/CMakeFiles/bypass.dir/clean:
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && $(CMAKE_COMMAND) -P CMakeFiles/bypass.dir/cmake_clean.cmake
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass && $(CMAKE_COMMAND) -P CMakeFiles/bypass.dir/cmake_clean.cmake
 .PHONY : bypass/CMakeFiles/bypass.dir/clean
 
 bypass/CMakeFiles/bypass.dir/depend:
-	cd /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/bypass /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/bypass /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/bypass/CMakeFiles/bypass.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : bypass/CMakeFiles/bypass.dir/depend
 

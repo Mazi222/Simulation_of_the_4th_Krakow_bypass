@@ -1,4 +1,9 @@
-/home/fajcon/Pulpit/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass
--- Configuring done
--- Generating done
--- Build files have been written to: /home/fajcon/symulacja/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug
+/home/mazi/Dokumenty/cos/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass
+CMake Error at CMakeLists.txt:14 (add_subdirectory):
+  add_subdirectory given source "bypass_tests" which is not an existing
+  directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/mazi/CLionProjects/Simulation_of_the_4th_Krakow_bypass/cmake-build-debug/CMakeFiles/CMakeError.log".
