@@ -5,23 +5,24 @@
 #ifndef SIMULATION_OF_THE_4TH_KRAKOW_BYPASS_VEHICLE_HPP
 #define SIMULATION_OF_THE_4TH_KRAKOW_BYPASS_VEHICLE_HPP
 
+#include <QGraphicsPixmapItem>
+#include <QGraphicsItem>
+#include <QObject>
+
 #include <string>
 
-class Vehicle {
+class Vehicle: public QObject, public QGraphicsPixmapItem {
+    Q_OBJECT
 public:
-    Vehicle(){speed=1;}
-    void set_speed(const int& new_speed)
-    {
-        speed=new_speed;
-    }
-    const int& get_speed() const
-    {
-        return speed;
-    }
-
+    Vehicle(int i=0, QGraphicsItem *parent=0);
+    void set_speed(const int& new_speed);
+    const int& get_speed() const;
     const std::string& get_destination() const;
 
     virtual ~Vehicle() = default;
+
+    void move(int i, int y);
+
 protected:
     int speed;
     std::string destination;

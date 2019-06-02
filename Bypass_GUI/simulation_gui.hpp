@@ -10,14 +10,15 @@
 #include <QGridLayout>
 #include <vector>
 #include <memory>
-#include "car_graphic.h"
+#include "car_graphic.hpp"
+#include "bypass/Simulation.hpp"
 
 class Simulation_GUI: public QGraphicsView
 {
      Q_OBJECT
 private:
     QGraphicsScene *scene;
-
+    Simulation *simulation;
 //menu declarations
     std::vector<QPushButton *> buttons;
     QGridLayout *menu_layout;
@@ -32,12 +33,11 @@ private:
     void create_buttons();
     void connect_buttons();
     void add_buttons_to_layout();
+    void change_menu(const int i);
 
-
-    void test(const int i);
-    void addCarsBeta();
 //bypass functions
     void generate_bypass(const int i);
+    void getCarsBeta();
 
 public:
     Simulation_GUI();

@@ -9,7 +9,7 @@ TEMPLATE = app
 TARGET = Simulation_of_the_4th_Krakow_bypass
 INCLUDEPATH += .
 
-# The following define makes your compiler warn you if you use any
+# The following   define makes your compiler warn you if you use any
 # feature of Qt which has been marked as deprecated (the exact warnings
 # depend on your compiler). Please consult the documentation of the
 # deprecated API in order to know how to port your code away from it.
@@ -22,14 +22,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 # Input
 HEADERS += bypass/Bypass.hpp \
+           Bypass_GUI/car_graphic.hpp \
+           Bypass_GUI/simulation_gui.hpp \
            bypass/BypassSection.hpp \
            bypass/Car.hpp \
            bypass/Junction.hpp \
            bypass/Road.hpp \
            bypass/Simulation.hpp \
-           bypass/Vehicle.hpp \
-           Bypass_GUI/car_graphic.h \
-           Bypass_GUI/simulation_gui.h
+           bypass/Vehicle.hpp
 SOURCES += \
            bypass/Bypass.cpp \
            bypass/BypassSection.cpp \
@@ -39,7 +39,8 @@ SOURCES += \
            bypass/Simulation.cpp \
            Bypass_GUI/car_graphic.cpp \
            Bypass_GUI/main.cpp \
-           Bypass_GUI/simulation_gui.cpp
+           Bypass_GUI/simulation_gui.cpp \
+           bypass/vehicle.cpp
 RESOURCES += Bypass_GUI/res.qrc
 
 FORMS +=

@@ -1,4 +1,4 @@
-#include "simulation_gui.h"
+#include "simulation_gui.hpp"
 
 #include <QTimer>
 
@@ -7,6 +7,8 @@ Simulation_GUI::Simulation_GUI()
     scene = new QGraphicsScene();
     setScene(scene);
     generate_menu();
+    simulation = new Simulation(scene);
+    simulation->initializeBypass();
 }
 
 
@@ -87,7 +89,7 @@ void Simulation_GUI::add_buttons_to_layout()
     menu_layout->addWidget(buttons[26],7,11);
 }
 
-void Simulation_GUI::test(const int i)
+void Simulation_GUI::change_menu(const int i)
 {
     menu_view->hide();
     generate_bypass(i);
@@ -97,7 +99,7 @@ void Simulation_GUI::connect_buttons()
 {
     using namespace std::placeholders;
     for(std::size_t i =0;i<buttons.size();++i)
-        connect(buttons[i], &QPushButton::clicked, this, [=](){this->test(i);});
+        connect(buttons[i], &QPushButton::clicked, this, [=](){this->change_menu(i);});
 }
 
 
@@ -112,10 +114,10 @@ void Simulation_GUI::generate_bypass(const int i)
     bypass_view ->setBackgroundBrush(QBrush(bypass_image));
     bypass_view ->show();
 
-    addCarsBeta();
+   // addCarsBeta();
     QTimer *timer = new QTimer();
     connect(timer, SIGNAL(timeout()),this,SLOT(moveCarsBeta()));
-    timer->start(600);
+    timer->start(1);
 }
 
 Simulation_GUI::~Simulation_GUI()
@@ -127,27 +129,32 @@ Simulation_GUI::~Simulation_GUI()
 
 }
 
-void Simulation_GUI::addCarsBeta()
-{
-    for(int i=0;i<100;++i)
-    {
-        if(i%5==0)
-        {
-            cars_beta.push_back(new Car_Graphic(i));
-            scene->addItem(cars_beta[i]);
-        }
-        else {
-            cars_beta.push_back(nullptr);
-        }
-    }
-}
 void Simulation_GUI::moveCarsBeta()
 {
-    for(std::size_t i=0;i<100;++i)
+
+    simulation->next_step();
+    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_right_to_tarnow = simulation->get_cells_of_bypass_line_right();
+    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_left_to_tarnow  = simulation->get_cells_of_bypass_line_left();
+    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_temp_to_tarnow  = simulation->get_cells_of_bypass_line_tmp();
+
+    for(std::size_t i=0;i<cells_of_bypass_line_right_to_tarnow .size();++i)
     {
-        if(cars_beta[i]!=nullptr)
+        if(cells_of_bypass_line_right_to_tarnow [i]!=nullptr)
         {
-            cars_beta[i]->move(2);
+            cells_of_bypass_line_right_to_tarnow [i]->move(i,0);
+        }
+    }
+    for(std::size_t i=0;i<cells_of_bypass_line_left_to_tarnow.size();++i)
+    {
+        if(cells_of_bypass_line_left_to_tarnow[i]!=nullptr){
+            cells_of_bypass_line_left_to_tarnow[i]->move(i,1);
+        }
+    }
+    for(std::size_t i=0;i<cells_of_bypass_line_temp_to_tarnow .size();++i)
+    {
+        if(cells_of_bypass_line_temp_to_tarnow [i]!=nullptr){
+            cells_of_bypass_line_temp_to_tarnow [i]->move(i,2);
+
         }
     }
 }

@@ -1,4 +1,4 @@
-#include "car_graphic.h"
+#include "car_graphic.hpp"
 
 Car_Graphic::Car_Graphic(int i, QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent)
 {

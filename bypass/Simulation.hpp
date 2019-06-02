@@ -6,6 +6,7 @@
 #define SIMULATION_OF_THE_4TH_KRAKOW_BYPASS_SIMULATION_HPP
 
 
+#include <QGraphicsScene>
 #include <array>
 #include <memory>
 #include <vector>
@@ -21,7 +22,7 @@
 
 class Simulation {
 public:
-    Simulation();
+    Simulation(QGraphicsScene *_scene);
     void start_simulation();
     ~Simulation() = default;
 
@@ -35,6 +36,12 @@ private: //temporary
 public:
     void simulate_beta();
     void initializeBypass();
+    void next_step();
+
+public:
+    std::vector<std::shared_ptr<Vehicle>>& get_cells_of_bypass_line_right();
+    std::vector<std::shared_ptr<Vehicle>>& get_cells_of_bypass_line_left();
+    std::vector<std::shared_ptr<Vehicle>>& get_cells_of_bypass_line_tmp();
 
 private:
 
@@ -50,9 +57,9 @@ private:
     Bypass bypass;
 
 //    void get_data();
-    void next_step();
 //    void notify_observer() const;
 private:
+    QGraphicsScene *scene;
     int vmax=5;
     int line;
     //std::vector<std::shared_ptr<Bypass>> bypasses;

@@ -2,7 +2,7 @@
 #include <QLabel>
 #include <QGraphicsScene>
 #include <QGraphicsRectItem>
-#include "simulation_gui.h"
+#include "simulation_gui.hpp"
 
 int main(int argc, char *argv[])
 {
