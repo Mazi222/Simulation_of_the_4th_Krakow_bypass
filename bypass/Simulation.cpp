@@ -168,14 +168,14 @@ void Simulation::move(const int &number_of_cell) {
 /*-----------------------------beta---------------------------------*/
 void Simulation::simulate_beta() {
     int numbersOfCars = 0;
-    for (int i = 0; i < 50; ++i) {
+    for (int i = 0; i < 1200; ++i) {
         cells_of_bypass_line_right.push_back(nullptr);
         cells_of_bypass_line_left.push_back(nullptr);
         cells_of_bypass_line_temp.push_back(nullptr);
     }
     for(int i=0;i<50000;++i){
         test++;
-        sleep(0.5);
+        sleep(1);
         next_step();
         for(int number_of_cell = 0; number_of_cell<=cells_of_bypass_line_left.size()-1;++number_of_cell) {
             if (cells_of_bypass_line_left[number_of_cell] == nullptr){
@@ -281,13 +281,26 @@ void Simulation::change_left(const int &number_of_cell) {
 
 void Simulation::initializeBypass() { //TODO model of real bypass
     int sizeOfBypass = 55;
-    bypass.addBypassSection(std::make_shared<Road>(0, 10, 5));
-    bypass.addBypassSection(std::make_shared<Junction>(11, 16, 5, true, false, 100));
-    bypass.addBypassSection(std::make_shared<Road>(17, 25, 5));
-    bypass.addBypassSection(std::make_shared<Junction>(26, 32, 5, true, false, 100));
-    bypass.addBypassSection(std::make_shared<Road>(33, 38, 5));
-    bypass.addBypassSection(std::make_shared<Junction>(39, 45, 5, false, true, 100));
-    bypass.addBypassSection(std::make_shared<Road>(46,sizeOfBypass, 5));
+    bypass.addBypassSection(std::make_shared<Road>(0, 320, 4)); //Nowa Huta po wjeździe
+    bypass.addBypassSection(std::make_shared<Junction>(321, 330, 4, false, true, 100));//zjazd S7 - Trakt papieski
+    bypass.addBypassSection(std::make_shared<Road>(331, 404, 4));
+    bypass.addBypassSection(std::make_shared<Junction>(405, 451, 4, true, false, 100));//wjazd Trakt papieski - S7
+    bypass.addBypassSection(std::make_shared<Road>(452, 598, 4));
+    bypass.addBypassSection(std::make_shared<Junction>(599, 659, 4, false, true, 100));//zjazd S7 - A4 na Tarnów
+    bypass.addBypassSection(std::make_shared<Road>(660, 786, 3));
+    bypass.addBypassSection(std::make_shared<Junction>(787, 860, 5, true, false, 100)); //wjazd S7 - A4 na Katowice
+    bypass.addBypassSection(std::make_shared<Road>(861,1061, 5));
+    bypass.addBypassSection(std::make_shared<Junction>(1062, 1129, 5, false, true, 100));//zjazd A4 - 94
+    bypass.addBypassSection(std::make_shared<Road>(1130,1250, 5));
+//    int sizeOfBypass = 55;
+//    bypass.addBypassSection(std::make_shared<Road>(0, 10, 5));
+//    bypass.addBypassSection(std::make_shared<Junction>(11, 16, 5, true, false, 100));
+//    bypass.addBypassSection(std::make_shared<Road>(17, 25, 5));
+//    bypass.addBypassSection(std::make_shared<Junction>(26, 32, 5, true, false, 100));
+//    bypass.addBypassSection(std::make_shared<Road>(33, 38, 5));
+//    bypass.addBypassSection(std::make_shared<Junction>(39, 45, 5, false, true, 100));
+//    bypass.addBypassSection(std::make_shared<Road>(46,sizeOfBypass, 5));
+
 }
 
 void Simulation::stepWithEntry(int number_of_cell) { //TODO improve  random
