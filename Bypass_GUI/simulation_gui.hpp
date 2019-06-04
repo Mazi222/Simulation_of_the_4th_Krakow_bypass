@@ -41,6 +41,7 @@ private:
     int part_of_bypass;
     int partial_sum_of_cars;
     QPushButton *partial_sum_of_cars_view;
+    QPushButton *name_of_partition;
 
 //menu functions
     void generate_menu();

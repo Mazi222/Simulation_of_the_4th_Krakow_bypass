@@ -23,14 +23,7 @@ Simulation_GUI::Simulation_GUI()
     partition_points[10]=5100;
     partition_points[11]=5100;
 
-    for(int j=0;j<4;++j)
-    {
-        sliders.push_back(new QSlider(Qt::Orientation::Horizontal));
-        sliders[j]->setPageStep(1);
-        sliders[j]->setMinimum(0);
-        sliders[j]->setMaximum(100);
-        scene->addWidget(sliders[j]);
-    }
+
 
     timer = new QTimer();
     connect(timer, SIGNAL(timeout()),this,SLOT(move_cars_beta()));
@@ -107,10 +100,10 @@ void Simulation_GUI::create_buttons()
 
     for(std::size_t i=0;i<27;++i)
     {
-        buttons.push_back(new QPushButton);
+        buttons.push_back(new QPushButton());//QString::number(i)
         buttons[i]->setSizePolicy(QSizePolicy(QSizePolicy::Preferred,QSizePolicy::Preferred));
         if(i<23){}
-           // buttons[i]->setFlat(true);
+            buttons[i]->setFlat(true);
     }
 }
 
@@ -129,55 +122,133 @@ void Simulation_GUI::connect_buttons()
 }
 
 
-void Simulation_GUI::generate_bypass(const int i)
+void Simulation_GUI::generate_bypass(const int x)
 {
+    int i;
+    if(x==14 | x==13)
+        i=0;
+    else if(x==12 || x==11)
+        i=1;
+    else if(x==10)
+        i=2;
+    else if(x==9)
+        i=3;
+    else if(x==8 || x==7)
+        i=4;
+    else if(x==6 || x==5)
+        i=5;
+    else if(x==4 || x==3)
+        i=6;
+    else if(x==2 || x==1)
+        i=7;
+    else if(x==0)
+        i=8;
+    else if(x==22 || x==21)
+        i=9;
+    else if(x<21 && x>14)
+        i=x%10;
+    else i=0;
+
     hide_in_menu=0;
     part_of_bypass=i;
     bypass_view = new QGraphicsView();
     partial_sum_of_cars_view = new QPushButton();
+    name_of_partition = new QPushButton();
     go_back_button = new QPushButton();
-    go_back_button->move(10,10);
-    go_back_button->setText("Go back");
+
     scene->addWidget(go_back_button);
     connect(go_back_button,&QPushButton::clicked, this, [=](){this->go_back_to_menu();});
     switch (i) {
     case 0:
         bypass_image = new QImage(":/Images/Part1.png");
+        for(int j=0;j<4;++j)
+        {
+            sliders.push_back(new QSlider(Qt::Orientation::Horizontal));
+            sliders[j]->setPageStep(1);
+            sliders[j]->setMinimum(0);
+            sliders[j]->setMaximum(100);
+            scene->addWidget(sliders[j]);
+        }
         set_sliders(i);
+        name_of_partition->setText("Nowa Huta - Trakt Papieski");
         break;
     case 1:
         bypass_image = new QImage(":/Images/Part2.png");
+        for(int j=0;j<4;++j)
+        {
+            sliders.push_back(new QSlider(Qt::Orientation::Horizontal));
+            sliders[j]->setPageStep(1);
+            sliders[j]->setMinimum(0);
+            sliders[j]->setMaximum(100);
+            scene->addWidget(sliders[j]);
+        }
         set_sliders(i);
+        name_of_partition->setText("Trakt Papieski - A4/97");
         break;
     case 2:
         bypass_image = new QImage(":/Images/Part3.png");
         for(int j=0;j<4;++j)
+        {
+            sliders.push_back(new QSlider(Qt::Orientation::Horizontal));
+            sliders[j]->setPageStep(1);
+            sliders[j]->setMinimum(0);
+            sliders[j]->setMaximum(100);
+            scene->addWidget(sliders[j]);
+        }
         set_sliders(i);
+        name_of_partition->setText("A4/97 - A4/94");
         break;
     case 3:
         bypass_image = new QImage(":/Images/Part4.png");
+        name_of_partition->setText("A4/94 - A4 Herberta");
         break;
     case 4:
         bypass_image = new QImage(":/Images/Part5.png");
+        for(int j=0;j<4;++j)
+        {
+            sliders.push_back(new QSlider(Qt::Orientation::Horizontal));
+            sliders[j]->setPageStep(1);
+            sliders[j]->setMinimum(0);
+            sliders[j]->setMaximum(100);
+            scene->addWidget(sliders[j]);
+        }
         set_sliders(i);
+        name_of_partition->setText("A4 Herberta - Zakopianska");
         break;
     case 5: bypass_image = new QImage(":/Images/Part6.png");
+        set_sliders(i);
+        name_of_partition->setText("Zakopianska - A4/44");
         break;
     case 6: bypass_image = new QImage(":/Images/Part7.png");
+        set_sliders(i);
+        name_of_partition->setText("A4/44 - Tyniecka");
         break;
     case 7: bypass_image = new QImage(":/Images/Part8.png");
+        set_sliders(i);
+        name_of_partition->setText("Tyniecka - Balice");
         break;
     case 8: bypass_image = new QImage(":/Images/Part9.png");
+        set_sliders(i);
+        name_of_partition->setText("Balice - 94/7");
         break;
     case 9: bypass_image = new QImage(":/Images/Part10.png");
+        set_sliders(i);
+        name_of_partition->setText("94/7 - 94");
         break;
     case 10:bypass_image = new QImage(":/Images/Part7.png");
+        set_sliders(i);
+        name_of_partition->setText("Not build yet");
         break;
     default:
         bypass_image = new QImage(":/Images/Part10.png");
         break;
     }
-
+    if(x<21 && x>14)
+        name_of_partition->setText("Not build yet");
+    go_back_button->move(bypass_image->width()/2-100,20);
+    go_back_button->setText("Go back");
+    name_of_partition->move(bypass_image->width()/2+50,20);
+    scene->addWidget(name_of_partition);
     scene->setSceneRect(0,0,bypass_image->width(),bypass_image->height());
 
     partial_sum_of_cars_view->move(bypass_image->width()/2,20);
@@ -197,7 +268,6 @@ Simulation_GUI::~Simulation_GUI()   //TODO
         delete buttons[i];
     delete menu_layout;
     delete menu_view;
-
 }
 
 void Simulation_GUI::move_cars_beta()
@@ -247,6 +317,7 @@ void Simulation_GUI::go_back_to_menu()
     scene->setSceneRect(0,0,1024,585);
     menu_view->show();
     disconnect(timer, SIGNAL(timeout()),this,SLOT(set_partial_sum_of_cars()));
+    delete name_of_partition;
     delete partial_sum_of_cars_view;
     delete go_back_button;
 //    for(int i=0;i<sliders.size();++i)
@@ -333,10 +404,12 @@ void Simulation_GUI::set_sliders(int i)
         sliders[3]->move(63*60,300);
     }
     else {
-        sliders[0]->move(-100,-100);
-        sliders[1]->move(-100,-100);
-        sliders[2]->move(-100,-100);
-        sliders[3]->move(-100,-100);
+        if(!sliders.empty()){
+            sliders[0]->move(-100,-100);
+            sliders[1]->move(-100,-100);
+            sliders[2]->move(-100,-100);
+            sliders[3]->move(-100,-100);
+         }
     }
 
 }
