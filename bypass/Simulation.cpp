@@ -243,16 +243,16 @@ void Simulation::initializeBypass() {
         bypass.addBypassSection(std::make_shared<Junction>(788, 860, 5, true, false, 100)); //wjazd S7 - A4 na Katowice///
         bypass.addBypassSection(std::make_shared<Road>(861,1061, 5));
         bypass.addBypassSection(std::make_shared<Junction>(1062, 1129, 5, false, true, 10));//zjazd A4 - 94//
-        bypass.addBypassSection(std::make_shared<Road>(1130,1250, 5));
-        bypass.addBypassSection(std::make_shared<Junction>(1251, 1371, 5, true, false, 100)); //wjazd 94 - A4 na Katowice//
+        bypass.addBypassSection(std::make_shared<Road>(1130,1252, 5));
+        bypass.addBypassSection(std::make_shared<Junction>(1253, 1371, 5, true, false, 100)); //wjazd 94 - A4 na Katowice//
         bypass.addBypassSection(std::make_shared<Road>(1372,1892, 5));
         bypass.addBypassSection(std::make_shared<Junction>(1893, 1919, 5, false, true, 10));//zjazd A4 - Zbigniewa Herberta//
         bypass.addBypassSection(std::make_shared<Road>(1920,1973, 5));
         bypass.addBypassSection(std::make_shared<Junction>(1974, 1999, 5, true, false, 100)); //wjazd Zbigniewa Herberta - A4 na Katowice//
         bypass.addBypassSection(std::make_shared<Road>(2000,2240, 5));
         bypass.addBypassSection(std::make_shared<Junction>(2241, 2267, 5, false, true, 10));//zjazd A4 - Zakopianka
-        bypass.addBypassSection(std::make_shared<Road>(2268,2315, 5));//
-        bypass.addBypassSection(std::make_shared<Junction>(2316, 2336, 5, true, false, 100)); //wjazd Zakopianka - A4 na Katowice//
+        bypass.addBypassSection(std::make_shared<Road>(2268,2317, 5));//
+        bypass.addBypassSection(std::make_shared<Junction>(2318, 2336, 5, true, false, 100)); //wjazd Zakopianka - A4 na Katowice//
         bypass.addBypassSection(std::make_shared<Road>(2337,2790, 5));
         bypass.addBypassSection(std::make_shared<Junction>(2791, 2814, 5, false, true, 10));//zjazd A4 - 44
         bypass.addBypassSection(std::make_shared<Road>(2815,2888, 5));

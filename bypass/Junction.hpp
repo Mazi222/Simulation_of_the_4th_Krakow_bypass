@@ -29,6 +29,8 @@ public:
     bool hasDeparture() const override;
 
     int getProbabilityOfFlow() const override;
+
+    void setProbabilityOfFlow(int x);
 };
 
 

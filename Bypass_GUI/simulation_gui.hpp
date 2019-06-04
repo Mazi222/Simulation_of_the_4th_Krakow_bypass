@@ -11,6 +11,7 @@
 #include <vector>
 #include <memory>
 #include <QTextEdit>
+#include <QSlider>
 #include "car_graphic.hpp"
 #include "bypass/Simulation.hpp"
 
@@ -21,7 +22,8 @@ private:
     QGraphicsScene *scene;
     Simulation *simulation_to_tarnow;
     Simulation *simulation_from_tarnow;
-    std::array<int,20> partition_points;
+    QTimer *timer;
+    std::array<int,12> partition_points;
     int hide_in_menu;
     int sum_of_cars=0;
 //menu declarations
@@ -35,7 +37,11 @@ private:
     QGraphicsView *bypass_view;
     QPushButton *go_back_button;
     QImage *bypass_image;
+    std::vector<QSlider *> sliders;
     int part_of_bypass;
+    int partial_sum_of_cars;
+    QPushButton *partial_sum_of_cars_view;
+
 //menu functions
     void generate_menu();
     void create_buttons();
@@ -46,6 +52,7 @@ private:
 //bypass functions
     void generate_bypass(const int i);
     void go_back_to_menu();
+    void set_sliders(int i);
 
 public:
     Simulation_GUI();
@@ -53,6 +60,7 @@ public:
 public slots:
     void move_cars_beta();
     void set_sum_of_cars();
+    void set_partial_sum_of_cars();
 };
 
 #endif // SIMULATION_GUI_H

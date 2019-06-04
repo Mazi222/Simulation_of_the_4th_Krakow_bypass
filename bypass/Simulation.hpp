@@ -41,6 +41,10 @@ public:
     std::vector<std::shared_ptr<Vehicle>>& get_cells_of_bypass_line_right();
     std::vector<std::shared_ptr<Vehicle>>& get_cells_of_bypass_line_left();
     std::vector<std::shared_ptr<Vehicle>>& get_cells_of_bypass_line_tmp();
+    Bypass& get_bypass()
+    {
+        return bypass;
+    }
 
 private:
 
@@ -55,8 +59,6 @@ private:
     void move(const int &number_of_cell);
     Bypass bypass;
 
-//    void get_data();
-//    void notify_observer() const;
 private:
     QGraphicsScene *scene;
     int vmax=5;

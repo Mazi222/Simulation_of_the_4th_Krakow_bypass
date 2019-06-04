@@ -34,3 +34,8 @@ bool Junction::hasDeparture() const {
 int Junction::getProbabilityOfFlow() const {
     return probabilityOfFlow;
 }
+
+void Junction::setProbabilityOfFlow(int newProbabilityOfFlow)
+{
+    probabilityOfFlow=newProbabilityOfFlow;
+}
