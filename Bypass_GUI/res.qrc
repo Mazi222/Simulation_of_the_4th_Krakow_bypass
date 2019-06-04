@@ -3,5 +3,7 @@
         <file>highway.png</file>
         <file>map.png</file>
         <file>car.png</file>
+        <file>Part1.png</file>
+        <file>Part2.png</file>
     </qresource>
 </RCC>

@@ -7,21 +7,70 @@ Simulation_GUI::Simulation_GUI()
     scene = new QGraphicsScene();
     setScene(scene);
     generate_menu();
-    simulation = new Simulation(scene);
-    simulation->initializeBypass();
+    simulation_to_tarnow = new Simulation(scene,false);
+    simulation_from_tarnow = new Simulation(scene,true);
+
+    partition_points[0]=0;
+    partition_points[1]=452;
+    partition_points[2]=1062;
+    partition_points[3]=1372;
+    partition_points[4]=1893;
+
+    QTimer *timer = new QTimer();
+    connect(timer, SIGNAL(timeout()),this,SLOT(move_cars_beta()));
+    timer->start(1000);
+
+    QTimer *timer2 = new QTimer();
+    connect(timer, SIGNAL(timeout()),this,SLOT(set_sum_of_cars()));
+    timer2->start(100);
 }
 
+void Simulation_GUI::set_sum_of_cars()
+{
+    sum_of_cars=0;
 
+    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_right_to_tarnow = simulation_to_tarnow->get_cells_of_bypass_line_right();
+    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_left_to_tarnow  = simulation_to_tarnow->get_cells_of_bypass_line_left();
+    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_temp_to_tarnow  = simulation_to_tarnow->get_cells_of_bypass_line_tmp();
+
+    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_right_from_tarnow = simulation_from_tarnow->get_cells_of_bypass_line_right();
+    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_left_from_tarnow  = simulation_from_tarnow->get_cells_of_bypass_line_left();
+    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_temp_from_tarnow  = simulation_from_tarnow->get_cells_of_bypass_line_tmp();
+
+    for(std::size_t i=0;i<cells_of_bypass_line_right_to_tarnow .size();++i)
+    {
+        if(cells_of_bypass_line_temp_to_tarnow [i]!=nullptr){
+            sum_of_cars+=1;
+        }
+        if(cells_of_bypass_line_right_to_tarnow [i]!=nullptr){
+            sum_of_cars+=1;
+        }
+        if(cells_of_bypass_line_left_to_tarnow[i]!=nullptr){
+            sum_of_cars+=1;
+        }
+        if(cells_of_bypass_line_temp_from_tarnow [i]!=nullptr){
+            sum_of_cars+=1;
+        }
+        if(cells_of_bypass_line_right_from_tarnow [i]!=nullptr){
+            sum_of_cars+=1;
+        }
+        if(cells_of_bypass_line_left_from_tarnow[i]!=nullptr){
+            sum_of_cars+=1;
+        }
+    }
+    counter->setText(QString::number(sum_of_cars));
+}
 
 void Simulation_GUI::generate_menu()
 {
     menu_view = new QGraphicsView();
     menu_layout = new QGridLayout;
+    counter = new QPushButton();
+    display = new QPushButton();
+
     scene->setSceneRect(0,0,1024,585);
-
-
     menu_view->setScene(scene);
-    menu_view->setFixedSize(1024,585);
+    menu_view->setFixedSize(1044,590);
     menu_view->setBackgroundBrush(QBrush(QImage(":/Images/map.png")));
 
     create_buttons();
@@ -31,16 +80,23 @@ void Simulation_GUI::generate_menu()
     menu_view->setLayout(menu_layout);
     menu_view->show();
 
+
 }
 
 void Simulation_GUI::create_buttons()
 {
+    counter->setSizePolicy(QSizePolicy(QSizePolicy::Preferred,QSizePolicy::Preferred));
+    display->setText("Sum of all cars:");
+    display->setSizePolicy(QSizePolicy(QSizePolicy::Preferred,QSizePolicy::Preferred));
+    menu_layout->addWidget(counter,0,10);
+    menu_layout->addWidget(display,0,9);
+
     for(std::size_t i=0;i<27;++i)
     {
         buttons.push_back(new QPushButton);
         buttons[i]->setSizePolicy(QSizePolicy(QSizePolicy::Preferred,QSizePolicy::Preferred));
-        if(i<23)
-            buttons[i]->setFlat(true);
+        if(i<23){}
+           // buttons[i]->setFlat(true);
     }
 }
 
@@ -51,11 +107,9 @@ void Simulation_GUI::add_buttons_to_layout()
     menu_layout->addWidget(buttons[1],2,0);
     menu_layout->addWidget(buttons[2],3,0);
     menu_layout->addWidget(buttons[3],4,0);
-
     //Left/Down buttons
     menu_layout->addWidget(buttons[4],5,1);
     menu_layout->addWidget(buttons[5],6,1);
-
     //Down buttons
     menu_layout->addWidget(buttons[6],6,2);
     menu_layout->addWidget(buttons[7],6,3);
@@ -105,19 +159,58 @@ void Simulation_GUI::connect_buttons()
 
 void Simulation_GUI::generate_bypass(const int i)
 {
+    hide_in_menu=0;
+    part_of_bypass=i;
     bypass_view = new QGraphicsView();
-    QImage bypass_image(":/Images/highway.png");
+    go_back_button = new QPushButton();
+    go_back_button->move(10,10);
+    go_back_button->setText("Go back");
+    scene->addWidget(go_back_button);
+    connect(go_back_button,&QPushButton::clicked, this, [=](){this->go_back_to_menu();});
+    switch (i) {
+    case 0: bypass_image = new QImage(":/Images/Part1.png");
+        break;
+    case 1: bypass_image = new QImage(":/Images/Part1.png");
+        break;
+    case 2: bypass_image = new QImage(":/Images/Part2.png");
+        break;
+    case 3: bypass_image = new QImage(":/Images/Part2.png");
+        break;
+    case 4: bypass_image = new QImage(":/Images/Part4.png");
+        break;
+    case 5: bypass_image = new QImage(":/Images/Part5.png");
+        break;
+    case 6: bypass_image = new QImage(":/Images/Part6.png");
+        break;
+    case 7: bypass_image = new QImage(":/Images/Part7.png");
+        break;
+    case 8: bypass_image = new QImage(":/Images/Part8.png");
+        break;
+    case 9: bypass_image = new QImage(":/Images/Part9.png");
+        break;
+    case 10: bypass_image = new QImage(":/Images/Part10.png");
+        break;
+    case 11: bypass_image = new QImage(":/Images/Part11.png");
+        break;
+    case 12: bypass_image = new QImage(":/Images/Part12.png");
+        break;
+    case 13: bypass_image = new QImage(":/Images/Part13.png");
+        break;
+    case 14: bypass_image = new QImage(":/Images/Part14.png");
+        break;
+    case 15: bypass_image = new QImage(":/Images/Part15.png");
+        break;
+    default:
+        bypass_image = new QImage(":/Images/Part0.png");
+        break;
+    }
 
-    scene->setSceneRect(0,0,bypass_image.width(),bypass_image.height());
+    scene->setSceneRect(0,0,bypass_image->width(),bypass_image->height());
     bypass_view ->setScene(scene);
-    bypass_view ->setFixedSize(1024,bypass_image.height()+20);
-    bypass_view ->setBackgroundBrush(QBrush(bypass_image));
+    bypass_view ->setFixedSize(1024,bypass_image->height()+20);
+    bypass_view ->setBackgroundBrush(QBrush(*bypass_image));
     bypass_view ->show();
 
-   // addCarsBeta();
-    QTimer *timer = new QTimer();
-    connect(timer, SIGNAL(timeout()),this,SLOT(moveCarsBeta()));
-    timer->start(1);
 }
 
 Simulation_GUI::~Simulation_GUI()
@@ -129,32 +222,54 @@ Simulation_GUI::~Simulation_GUI()
 
 }
 
-void Simulation_GUI::moveCarsBeta()
+void Simulation_GUI::move_cars_beta()
 {
+    if(bypass_view!=nullptr){
+        const int width_of_scene=scene->width();
+        simulation_to_tarnow->next_step();
+        simulation_from_tarnow->next_step();
 
-    simulation->next_step();
-    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_right_to_tarnow = simulation->get_cells_of_bypass_line_right();
-    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_left_to_tarnow  = simulation->get_cells_of_bypass_line_left();
-    std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_temp_to_tarnow  = simulation->get_cells_of_bypass_line_tmp();
+        std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_right_to_tarnow = simulation_to_tarnow->get_cells_of_bypass_line_right();
+        std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_left_to_tarnow  = simulation_to_tarnow->get_cells_of_bypass_line_left();
+        std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_temp_to_tarnow  = simulation_to_tarnow->get_cells_of_bypass_line_tmp();
 
-    for(std::size_t i=0;i<cells_of_bypass_line_right_to_tarnow .size();++i)
-    {
-        if(cells_of_bypass_line_right_to_tarnow [i]!=nullptr)
+        std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_right_from_tarnow = simulation_from_tarnow->get_cells_of_bypass_line_right();
+        std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_left_from_tarnow  = simulation_from_tarnow->get_cells_of_bypass_line_left();
+        std::vector<std::shared_ptr<Vehicle>> &cells_of_bypass_line_temp_from_tarnow  = simulation_from_tarnow->get_cells_of_bypass_line_tmp();
+
+        int j=partition_points[part_of_bypass];
+        int k=cells_of_bypass_line_right_to_tarnow .size()-j-1;
+
+        for(std::size_t i=0;i<cells_of_bypass_line_right_to_tarnow .size();++i)
         {
-            cells_of_bypass_line_right_to_tarnow [i]->move(i,0);
+            if(cells_of_bypass_line_temp_to_tarnow [i]!=nullptr){
+                cells_of_bypass_line_temp_to_tarnow [i]->move(k-i,5+hide_in_menu,width_of_scene);
+            }
+            if(cells_of_bypass_line_right_to_tarnow [i]!=nullptr){
+                cells_of_bypass_line_right_to_tarnow [i]->move(k-i,4+hide_in_menu,width_of_scene);
+            }
+            if(cells_of_bypass_line_left_to_tarnow[i]!=nullptr){
+                cells_of_bypass_line_left_to_tarnow[i]->move(k-i,3+hide_in_menu,width_of_scene);
+            }
+            if(cells_of_bypass_line_temp_from_tarnow [i]!=nullptr){
+                cells_of_bypass_line_temp_from_tarnow [i]->move(i-j,0+hide_in_menu,width_of_scene);
+            }
+            if(cells_of_bypass_line_right_from_tarnow [i]!=nullptr){
+                cells_of_bypass_line_right_from_tarnow [i]->move(i-j,1+hide_in_menu,width_of_scene);
+            }
+            if(cells_of_bypass_line_left_from_tarnow[i]!=nullptr){
+                cells_of_bypass_line_left_from_tarnow[i]->move(i-j,2+hide_in_menu,width_of_scene);
+            }
         }
     }
-    for(std::size_t i=0;i<cells_of_bypass_line_left_to_tarnow.size();++i)
-    {
-        if(cells_of_bypass_line_left_to_tarnow[i]!=nullptr){
-            cells_of_bypass_line_left_to_tarnow[i]->move(i,1);
-        }
-    }
-    for(std::size_t i=0;i<cells_of_bypass_line_temp_to_tarnow .size();++i)
-    {
-        if(cells_of_bypass_line_temp_to_tarnow [i]!=nullptr){
-            cells_of_bypass_line_temp_to_tarnow [i]->move(i,2);
+}
+void Simulation_GUI::go_back_to_menu()
+{
+    bypass_view->hide();
+    scene->setSceneRect(0,0,1024,585);
+    menu_view->show();
+    delete go_back_button;
+    delete bypass_image;
+    hide_in_menu=-5;
 
-        }
-    }
 }

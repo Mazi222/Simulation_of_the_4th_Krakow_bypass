@@ -10,6 +10,7 @@
 #include <QGridLayout>
 #include <vector>
 #include <memory>
+#include <QTextEdit>
 #include "car_graphic.hpp"
 #include "bypass/Simulation.hpp"
 
@@ -18,16 +19,23 @@ class Simulation_GUI: public QGraphicsView
      Q_OBJECT
 private:
     QGraphicsScene *scene;
-    Simulation *simulation;
+    Simulation *simulation_to_tarnow;
+    Simulation *simulation_from_tarnow;
+    std::array<int,20> partition_points;
+    int hide_in_menu;
+    int sum_of_cars=0;
 //menu declarations
     std::vector<QPushButton *> buttons;
     QGridLayout *menu_layout;
     QGraphicsView *menu_view;
+    QPushButton *counter;
+    QPushButton *display;
 
 //bypass declarations
     QGraphicsView *bypass_view;
-    std::vector<Car_Graphic *> cars_beta;
-
+    QPushButton *go_back_button;
+    QImage *bypass_image;
+    int part_of_bypass;
 //menu functions
     void generate_menu();
     void create_buttons();
@@ -37,13 +45,14 @@ private:
 
 //bypass functions
     void generate_bypass(const int i);
-    void getCarsBeta();
+    void go_back_to_menu();
 
 public:
     Simulation_GUI();
     ~Simulation_GUI();
 public slots:
-    void moveCarsBeta();
+    void move_cars_beta();
+    void set_sum_of_cars();
 };
 
 #endif // SIMULATION_GUI_H

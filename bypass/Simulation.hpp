@@ -18,16 +18,15 @@
 
 #define LEFT_LINE 1
 #define RIGHT_LINE 2
-#define  TEMP_LINE 3
+#define TEMP_LINE 3
 
 class Simulation {
 public:
-    Simulation(QGraphicsScene *_scene);
+    Simulation(QGraphicsScene *_scene, bool direction);
     void start_simulation();
     ~Simulation() = default;
 
 private: //temporary
-    int test = 0;
     void stepWithEntry(int number_of_cell);
     void stepWithDepartue(int number_of_cell);
     void step(int number_of_cell);
@@ -62,6 +61,8 @@ private:
     QGraphicsScene *scene;
     int vmax=5;
     int line;
+    int test = 0;
+    bool direction;
     //std::vector<std::shared_ptr<Bypass>> bypasses;
     std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_right;
     std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_left;

@@ -1,10 +1,16 @@
 #include "Vehicle.hpp"
-
-Vehicle::Vehicle(int i,QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent)
+#include  <QDebug>
+Vehicle::Vehicle(int i, bool _direction, QGraphicsItem *parent): QObject(), QGraphicsPixmapItem(parent), direction(_direction)
 {
     speed=1;
-    setPos(i*50,50);
-    setPixmap(QPixmap(":/Images/car.png"));
+    setPos(0,0);
+    if(direction){
+        setPixmap(QPixmap(":/Images/car.png"));
+    }
+    else {
+        setPixmap(QPixmap(":/Images/car.png"));
+
+    }
 }
 
 void Vehicle::set_speed(const int& new_speed)
@@ -17,7 +23,12 @@ const int& Vehicle::get_speed() const
     return speed;
 }
 
-void Vehicle::move(int x, int y)
+void Vehicle::move(const int& x,const int& y, const int& width_of_scene)
 {
-    setPos(50*x,25+65*y);
+    if(direction){
+        setPos(width_of_scene-60*x,10+55*y);
+    }
+    else {
+        setPos(width_of_scene-60*x,10+55*y);
+    }
 }

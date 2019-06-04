@@ -14,16 +14,18 @@
 class Vehicle: public QObject, public QGraphicsPixmapItem {
     Q_OBJECT
 public:
-    Vehicle(int i=0, QGraphicsItem *parent=0);
+    Vehicle(int i=0,bool _direction=false, QGraphicsItem *parent=0);
     void set_speed(const int& new_speed);
+
+    void move(const int& x,const int& y, const int& width_of_scenes);
+
     const int& get_speed() const;
     const std::string& get_destination() const;
 
     virtual ~Vehicle() = default;
 
-    void move(int i, int y);
-
 protected:
+    bool direction;
     int speed;
     std::string destination;
 };
