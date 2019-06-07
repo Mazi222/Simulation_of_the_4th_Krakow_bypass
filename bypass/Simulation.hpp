@@ -41,6 +41,8 @@ public:
     std::vector<std::shared_ptr<Vehicle>>& get_cells_of_bypass_line_right();
     std::vector<std::shared_ptr<Vehicle>>& get_cells_of_bypass_line_left();
     std::vector<std::shared_ptr<Vehicle>>& get_cells_of_bypass_line_tmp();
+    std::array<std::size_t,13>& get_flow_value();
+    void clean_flow_value();
     Bypass& get_bypass()
     {
         return bypass;
@@ -59,6 +61,8 @@ private:
     void move(const int &number_of_cell);
     Bypass bypass;
 
+    void check_flow(const int &number_of_cell,const int &speed);
+
 private:
     QGraphicsScene *scene;
     int vmax=5;
@@ -69,6 +73,10 @@ private:
     std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_right;
     std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_left;
     std::vector<std::shared_ptr<Vehicle>> cells_of_bypass_line_temp;
+
+    int flow_side;
+    std::array<std::size_t,13> flow;
+    std::array<std::size_t,13> flow_value;
 };
 
 

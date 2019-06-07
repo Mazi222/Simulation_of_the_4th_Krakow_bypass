@@ -13,5 +13,10 @@
         <file>Part10.png</file>
         <file>Part6.png</file>
         <file>Part9.png</file>
+        <file>car2.png</file>
+        <file>Part11.png</file>
+        <file>Part12.png</file>
+        <file>Part13.png</file>
     </qresource>
+    <qresource prefix="/"/>
 </RCC>

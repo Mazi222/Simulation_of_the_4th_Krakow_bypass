@@ -8,7 +8,7 @@ Vehicle::Vehicle(int i, bool _direction, QGraphicsItem *parent): QObject(), QGra
         setPixmap(QPixmap(":/Images/car.png"));
     }
     else {
-        setPixmap(QPixmap(":/Images/car.png"));
+        setPixmap(QPixmap(":/Images/car2.png"));
 
     }
 }
